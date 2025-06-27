@@ -22,3 +22,19 @@ PHRASE_PATTERNS.forEach(pattern => {
     // Display suggestion, explanation, etc.
   }
 });
+
+📋 Source
+
+This list is based on real examples of Finnish-English found in professional writing in Finland. It was compiled and curated by Ian Mac Eochagáin, a translator and language consultant based in Lohja.
+
+📐 License
+
+MIT — free to use and adapt. If you improve or expand the list, please consider contributing back!
+
+
+---
+
+Let me know if you want to:
+- Include instructions for updating the list from Excel
+- Add screenshots of the sidebar
+- Mention your monetization/freemium model in this repo too
