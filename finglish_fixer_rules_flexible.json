@@ -1,0 +1,1127 @@
+[
+  {
+    "pattern": "the\\s+brand\\s+has\\s+attract(ed|s)?\\s+lots\\s+of\\s+positive\\s+feedback",
+    "suggestion": "The brand has received lots of positive feedback",
+    "category": "Fake Idiom",
+    "example": "The brand has attracted lots of positive feedback",
+    "finglishItem": "attract feedback",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "the\\s+event\\s+gather(ed|s)?\\s+(close\\s+to|around|approximately)?\\s+\\d+\\s+attendees",
+    "suggestion": "The event attracted close to 300 attendees",
+    "category": "Fake Idiom",
+    "example": "The event gathered close to 300 attendees",
+    "finglishItem": "gather attendees",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "keep\\s+it\\s+lean\\s+and\\s+manage\\s+the\\s+projects\\s+without\\s+heavy\\s+resource\\s+planning",
+    "suggestion": "Keep it lean and manage the projects without cumbersome/burdensome/unnecessarily extensive resource planning!",
+    "category": "Fake Idiom",
+    "example": "Keep it lean and manage the projects without heavy resource planning!",
+    "finglishItem": "heavy planning",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "one\\s+of\\s+pehutec’s\\s+longest\\s+line\\s+telecommunications\\s+pioneers\\s+is\\s+electronics\\s+designer\\s+jorma\\s+savolainen",
+    "suggestion": "One of PehuTec’s most experienced telecommunications pioneers is electronics designer Jorma Savolainen",
+    "category": "Fake Idiom",
+    "example": "One of PehuTec’s longest line telecommunications pioneers is electronics designer Jorma Savolainen",
+    "finglishItem": "long line, longest line",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "heikki\\s+silvennoinen\\s+a\\s+finnish\\s+long-line\\s+blues\\s+guitarist\\s+and\\s+singer",
+    "suggestion": "Heikki Silvennoinen, a legendary Finnish blues guitarist and singer",
+    "category": "Fake Idiom",
+    "example": "Heikki Silvennoinen, a Finnish long-line blues guitarist and singer",
+    "finglishItem": "long line, longest line",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "career\\s+talk\\s+with\\s+a\\s+low\\s+threshold",
+    "suggestion": "Career talk open to everyone",
+    "category": "Fake Idiom",
+    "example": "Career talk with a low threshold",
+    "finglishItem": "with a low threshold",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "with\\s+pihlajalinna’s\\s+worry\\s+in\\s+mind\\s+service\\s+employees\\s+can\\s+contact\\s+the\\s+mental\\s+health\\s+line\\s+with\\s+a\\s+low\\s+threshold\\s+whenever\\s+they\\s+are\\s+worried\\s+about\\s+something",
+    "suggestion": "With Pihlajalinna’s Worry in Mind service, employees can feel free to contact the mental health line at any time they are worried about something, big or small",
+    "category": "Fake Idiom",
+    "example": "With Pihlajalinna’s Worry in Mind service, employees can contact the mental health line with a low threshold whenever they are worried about something",
+    "finglishItem": "with a low threshold",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "with\\s+us\\s+you\\s+can\\s+develop\\s+your\\s+entrepreneurial\\s+skills\\s+and\\s+ideas\\s+with\\s+a\\s+low\\s+threshold",
+    "suggestion": "With us, you can develop your entrepreneurial skills and ideas with little risk",
+    "category": "Fake Idiom",
+    "example": "With us, you can develop your entrepreneurial skills and ideas with a low threshold",
+    "finglishItem": "with a low threshold",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "there\\s+are\\s+many\\s+of\\s+those\\s+who\\s+log\\s+into\\s+the\\s+systems\\s+and\\s+move\\s+around\\s+in\\s+premises",
+    "suggestion": "There are many of those who log into the systems and use/enter premises",
+    "category": "Fake Idiom",
+    "example": "There are many of those who log into the systems and move around in premises",
+    "finglishItem": "move around in",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "wertti\\s+the\\s+end\\s+result\\s+of\\s+the\\s+cooperation\\s+between\\s+hunt\\s+ai\\s+and\\s+kodan\\s+is\\s+a\\s+user-friendly\\s+online\\s+service\\s+that\\s+(make|makes|made)?\\s+(it\\s+)?easy\\s+for\\s+consumers\\s+to\\s+communicate\\s+with\\s+insurance\\s+companies\\s+it\\s+help(s|ed)?\\s+consumers\\s+submit(ted|s|ting)?\\s+insurance\\s+quote\\s+requests\\s+effortlessly\\s+through\\s+a\\s+simple\\s+and\\s+adaptive\\s+process\\s+matching\\s+their\\s+needs\\s+with\\s+multiple\\s+offers\\s+from\\s+various\\s+companies\\s+on\\s+the\\s+other\\s+hand\\s+the\\s+service\\s+benefits\\s+insurers\\s+by\\s+providing\\s+them\\s+with\\s+high-quality\\s+leads\\s+and\\s+enabling\\s+them\\s+to\\s+focus\\s+on\\s+delivering\\s+optimal\\s+solutions\\s+for\\s+clients\\s+insurers\\s+no\\s+longer\\s+have\\s+to\\s+rely\\s+on\\s+cold\\s+calls\\s+which\\s+may\\s+also\\s+be\\s+prohibited\\s+soon\\s+due\\s+to\\s+eu\\s+regulations",
+    "suggestion": "Wertti, the end result of the cooperation between HUNT AI and Kodan, is a user-friendly online service that makes it easy for consumers to communicate with insurance companies. It helps consumers submit insurance quote requests effortlessly through a simple and adaptive process, matching their needs with multiple offers from various companies.\nThe service also benefits insurers by providing them with high-quality leads and enabling them to focus on delivering optimal solutions for clients. Insurers no longer have to rely on cold calls, which may also be prohibited soon due to EU regulations.",
+    "category": "Fake Idiom",
+    "example": "Wertti, the end result of the cooperation between HUNT AI and Kodan, is a user-friendly online service that makes it easy for consumers to communicate with insurance companies. It helps consumers submit insurance quote requests effortlessly through a simple and adaptive process, matching their needs with multiple offers from various companies.\nOn the other hand, the service benefits insurers by providing them with high-quality leads and enabling them to focus on delivering optimal solutions for clients. Insurers no longer have to rely on cold calls, which may also be prohibited soon due to EU regulations.",
+    "finglishItem": "on the other hand",
+    "notes": "The program should search for paragraphs with \"on the other hand\" which are preceded by paragraphs which do NOT contain \"on the one hand\".",
+    "manualReview": true
+  },
+  {
+    "pattern": "let\\s+us\\s+know\\s+what\\s+you\\s+are\\s+interested\\s+in\\s+and\\s+we\\s+will\\s+contact\\s+you\\s+soonest\\s+possible",
+    "suggestion": "Let us know what you are interested in and we will contact you as soon as possible.",
+    "category": "Fake Idiom",
+    "example": "Let us know what you are interested in and we will contact you soonest possible",
+    "finglishItem": "soonest possible",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "testing\\s+the\\s+plugs\\s+gave\\s+immediately\\s+a\\s+strong\\s+reaction\\s+the\\s+high\\s+level\\s+of\\s+stress\\s+caused\\s+by\\s+noise\\s+(start(s|ed|ing)?\\s+to|begin(s|ning|ned)?\\s+to)?\\s+decrease\\s+and\\s+the\\s+idea\\s+of\\s+refining\\s+the\\s+earplugs\\s+came\\s+into\\s+the\\s+mind",
+    "suggestion": "Testing the plugs immediately had a positive effect: the high level of stress caused by noise started to decrease and the idea of refining the earplugs came into the mind.",
+    "category": "Fake Idiom",
+    "example": "Testing the plugs gave immediately a strong reaction: the high level of stress caused by noise started to decrease and the idea of refining the earplugs came into the mind.",
+    "finglishItem": "strong reaction",
+    "notes": "Ask the user: \"'Strong reaction' in English means a negative reaction. Is this what you meant? If not, consider 'positive effect'.\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "the\\s+company\\s+takes\\s+the\\s+system\\s+into\\s+use",
+    "suggestion": "The company deploys/commissions/launches the system",
+    "category": "Fake Idiom",
+    "example": "The company takes the system into use",
+    "finglishItem": "take into use",
+    "notes": "Search for all forms of \"take into use\", including \"taken into use\", \"took into use\", etc. Also search for forms of \"take into use\" where the object comes between: \"The system was taken gradually into use\".",
+    "manualReview": false
+  },
+  {
+    "pattern": "if\\s+the\\s+system\\s+consists\\s+of\\s+multiple\\s+servers\\s+and\\s+tens\\s+of\\s+cameras\\s+then\\s+we\\s+recommend\\s+proper\\s+server\\s+hardware\\s+with\\s+client\\s+workstations",
+    "suggestion": "If the system consists of multiple servers and dozens of cameras, then we recommend proper server hardware with client workstations",
+    "category": "Fake Idiom",
+    "example": "If the system consists of multiple servers and tens of cameras, then we recommend proper server hardware with client workstations",
+    "finglishItem": "tens of",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "you\\s+want\\s+results\\s+that’s\\s+given",
+    "suggestion": "You want results. That’s a given.",
+    "category": "Fake Idiom",
+    "example": "You want results. That’s given.",
+    "finglishItem": "that’s given",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "founded\\s+in\\s+the\\s+turn\\s+of\\s+the\\s+millennium\\s+in\\s+finland\\s+we\\s+at\\s+barona\\s+have",
+    "suggestion": "Here at Barona, which was founded in Finland at the turn of the millennium, we",
+    "category": "Fake Idiom",
+    "example": "Founded in the turn of the millennium in Finland, we at Barona have",
+    "finglishItem": "we at",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "goal-driven\\s+systematic\\s+development\\s+of\\s+supervisors’\\s+managerial\\s+skills\\s+and\\s+the\\s+functions\\s+of\\s+work\\s+communities\\s+enable(s|d)?\\s+employees’\\s+occupational\\s+wellbeing\\s+and\\s+the\\s+success\\s+of\\s+business\\s+operations",
+    "suggestion": "Goal-driven, systematic development of supervisors’ managerial skills and the functions of workplaces/teams enables employees’ occupational wellbeing and the success of business operations.",
+    "category": "Fake Idiom",
+    "example": "Goal-driven, systematic development of supervisors’ managerial skills and the functions of work communities enables employees’ occupational wellbeing and the success of business operations.",
+    "finglishItem": "work community",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "the\\s+course\\s+is\\s+designed\\s+especially\\s+for\\s+international\\s+students\\s+and\\s+job\\s+seekers\\s+who\\s+wish\\s+to\\s+know\\s+more\\s+about\\s+the\\s+characteristics\\s+of\\s+finnish\\s+working\\s+life",
+    "suggestion": "The course is designed especially for international students and job seekers who wish to know more about what working in Finland is like.",
+    "category": "Fake Idiom",
+    "example": "The course is designed especially for international students and job seekers who wish to know more about the characteristics of Finnish working life",
+    "finglishItem": "working life",
+    "notes": "Also search for \"work life\" and \"worklife\". The program can also suggest a simple replacement of \"working life\", \"work life\" and \"worklife\" with \"world of work\" or \"working world\".",
+    "manualReview": false
+  },
+  {
+    "pattern": "rapid\\s+hiv\\s+testing\\s+in\\s+a\\s+mobile\\s+unit\\s+in\\s+connection\\s+with\\s+bear\\s+picnic",
+    "suggestion": "Rapid HIV testing in a mobile unit at/during/in conjunction with Bear Picnic",
+    "category": "Fake Idiom",
+    "example": "Rapid HIV testing in a mobile unit in connection with Bear Picnic",
+    "finglishItem": "in connection with",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "does\\s+the\\s+payment\\s+cover\\s+also\\s+the\\s+return\\s+flight",
+    "suggestion": "Does the payment also cover the return flight?",
+    "category": "Incorrect Grammar",
+    "example": "Does the payment cover also the return flight?",
+    "finglishItem": "also",
+    "notes": "The program should search for two main incorrect usages of Finglish: placing \"also\" after the main verb (a verb other than \"be\"), and placing \"also\" before the verb \"be\".",
+    "manualReview": false
+  },
+  {
+    "pattern": "a\\s+three-mile\\s+designated\\s+off-road\\s+cycling\\s+trail\\s+also\\s+is\\s+offered",
+    "suggestion": "A three-mile designated off-road cycling trail is also offered",
+    "category": "Incorrect Grammar",
+    "example": "A three-mile designated off-road cycling trail also is offered",
+    "finglishItem": "also",
+    "notes": "The program should search for two main incorrect usages of Finglish: placing \"also\" after the main verb (a verb other than \"be\"), and placing \"also\" before the verb \"be\".",
+    "manualReview": false
+  },
+  {
+    "pattern": "accessibility\\s+at\\s+learning\\s+centre\\s+aleksandria",
+    "suggestion": "Accessibility at the Aleksandria Learning Centre",
+    "category": "Incorrect Grammar",
+    "example": "Accessibility at Learning Centre Aleksandria",
+    "finglishItem": "definite article, common noun, proper noun order",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "the\\s+increase\\s+in\\s+number\\s+of\\s+passengers\\s+was\\s+visible\\s+especially\\s+in\\s+the\\s+north\\s+atlantic\\s+and\\s+european\\s+routes",
+    "suggestion": "The increase in number of passengers was especially visible in the North Atlantic and European routes",
+    "category": "Incorrect Grammar",
+    "example": "The increase in number of passengers was visible especially in the North Atlantic and European routes",
+    "finglishItem": "especially, misplaced and misused",
+    "notes": "Two distinct issues: if \"especially\" follows an adjective, the order of the adjective and adverb should be reversed. But if \"especially\" follows something other than an adjective, then a comma should be inserted before \"especially\".",
+    "manualReview": false
+  },
+  {
+    "pattern": "our\\s+customers\\s+are\\s+now\\s+booking\\s+holiday\\s+trips\\s+especially\\s+for\\s+their\\s+autumn\\s+leave\\s+and\\s+for\\s+the\\s+upcoming\\s+winter\\s+season",
+    "suggestion": "our customers are now booking holiday trips, especially for their autumn leave and for the upcoming winter season",
+    "category": "Incorrect Grammar",
+    "example": "our customers are now booking holiday trips especially for their autumn leave and for the upcoming winter season",
+    "finglishItem": "especially, misplaced and misused",
+    "notes": "Two distinct issues: if \"especially\" follows an adjective, the order of the adjective and adverb should be reversed. But if \"especially\" follows something other than an adjective, then a comma should be inserted before \"especially\".",
+    "manualReview": false
+  },
+  {
+    "pattern": "covid\\s+vaccination\\s+coverage\\s+is\\s+improving\\s+swiftly\\s+especially\\s+in\\s+asia",
+    "suggestion": "Covid vaccination coverage is improving swiftly, especially in Asia",
+    "category": "Incorrect Grammar",
+    "example": "Covid vaccination coverage is improving swiftly especially in Asia",
+    "finglishItem": "especially, misplaced and misused",
+    "notes": "Two distinct issues: if \"especially\" follows an adjective, the order of the adjective and adverb should be reversed. But if \"especially\" follows something other than an adjective, then a comma should be inserted before \"especially\".",
+    "manualReview": false
+  },
+  {
+    "pattern": "over\\s+its\\s+life\\s+cycle\\s+saf\\s+lowers\\s+carbon\\s+emissions\\s+drastically\\s+even\\s+up\\s+to\\s+\\d+%\\s+compared\\s+to\\s+fossil\\s+jet\\s+fuel",
+    "suggestion": "Over its life cycle, SAF lowers carbon emissions drastically, by as much as 80%* compared to fossil jet fuel.",
+    "category": "Incorrect Grammar",
+    "example": "Over its life cycle, SAF lowers carbon emissions drastically, even up to 80%, compared to fossil jet fuel.",
+    "finglishItem": "even up to (number)",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "telecommunication\\s+expertise\\s+from\\s+four\\s+decades",
+    "suggestion": "Four decades of telecommunications expertise",
+    "category": "Incorrect Grammar",
+    "example": "Telecommunication expertise from four decades",
+    "finglishItem": "experience/expertise from -> over, spanning",
+    "notes": "The issue specifically concerns \"from\" when followed by a time period and when following \"expertise\" or \"experience\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "you\\s+can\\s+apply\\s+for\\s+private\\s+daycare\\s+allowance\\s+from\\s+kela",
+    "suggestion": "You can apply to Kela for private daycare allowance",
+    "category": "Incorrect Grammar",
+    "example": "You can apply for private daycare allowance from Kela",
+    "finglishItem": "apply from -> to",
+    "notes": "Specifically concerns the verb \"apply\". Note that the suggestion can also be for new word order.",
+    "manualReview": false
+  },
+  {
+    "pattern": "the\\s+headless\\s+architecture\\s+was\\s+gone\\s+through\\s+especially\\s+thoroughly\\s+and\\s+different\\s+options\\s+discussed\\s+along\\s+the\\s+way",
+    "suggestion": "The headless architecture was gone over especially thoroughly and different options discussed along the way",
+    "category": "Incorrect Grammar",
+    "example": "The headless architecture was gone through especially thoroughly and different options discussed along the way",
+    "finglishItem": "go through",
+    "notes": "\"Go through\" in the sense \"discuss\", not physically go through, like \"go through the park for a shortcut\".",
+    "manualReview": false
+  },
+  {
+    "pattern": "what\\s+to\\s+do\\s+if\\s+we\\s+are\\s+not\\s+sure\\s+about\\s+the\\s+trustworthiness\\s+of\\s+external\\s+work\\s+force",
+    "suggestion": "What to do if we are not sure about the trustworthiness of external work force?",
+    "category": "Incorrect Grammar",
+    "example": "What to do, if we are not sure about the trustworthiness of external work force?",
+    "finglishItem": "incorrect comma before “if”",
+    "notes": "There are cases when a comma is correct before the if-clause, but in those cases the comma is separating something else.",
+    "manualReview": false
+  },
+  {
+    "pattern": "how\\s+is\\s+neste\\s+my\\s+saf\\s+made",
+    "suggestion": "How is Neste MY SAF made?",
+    "category": "Incorrect Grammar",
+    "example": "How is Neste MY SAF made",
+    "finglishItem": "incorrectly phrased questions",
+    "notes": "In the erroneous example, the company either wants to make a statement or ask a question, both of which it gets wrong.",
+    "manualReview": false
+  },
+  {
+    "pattern": "the\\s+programme\\s+is\\s+also\\s+taking\\s+place\\s+in\\s+several\\s+other\\s+countries\\s+such\\s+as\\s+bolivia\\s+colombia\\s+tanzania\\s+uganda\\s+or\\s+zambia",
+    "suggestion": "The programme is also taking place in several other countries such as Bolivia, Colombia, Tanzania, Uganda, and Zambia!",
+    "category": "Incorrect Grammar",
+    "example": "The programme is also taking place in several other countries such as Bolivia, Colombia, Tanzania, Uganda, or Zambia!",
+    "finglishItem": "or instead of and",
+    "notes": "This fix should be restricted to statements, not questions.",
+    "manualReview": false
+  },
+  {
+    "pattern": "for\\s+us\\s+it\\s+was\\s+important\\s+not\\s+to\\s+paint\\s+ourselves\\s+in\\s+the\\s+corner\\s+when\\s+it\\s+comes\\s+to\\s+technologies\\s+and\\s+other\\s+choices",
+    "suggestion": "For us it was important not to paint ourselves into a corner when it comes to technologies and other choices",
+    "category": "Incorrect Grammar",
+    "example": "For us it was important not to paint ourselves in the corner when it comes to technologies and other choices",
+    "finglishItem": "paint oneself in the corner",
+    "notes": "Search for all reflexive pronouns: myself, yourself, himself, etc., in the phrase \"paint (pronoun) in the corner\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "finlands\\s+jori\\s+hulkkonen\\s+has\\s+never\\s+been\\s+the\\s+one\\s+to\\s+paint\\s+himself\\s+in\\s+the\\s+corner",
+    "suggestion": "Finland's Jori Hulkkonen has never been the one to paint himself into a corner",
+    "category": "Incorrect Grammar",
+    "example": "Finland's Jori Hulkkonen has never been the one to paint himself in the corner",
+    "finglishItem": "paint oneself in the corner",
+    "notes": "Search for all reflexive pronouns: myself, yourself, himself, etc., in the phrase \"paint (pronoun) in the corner\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "gift\\s+cards\\s+are\\s+available\\s+at\\s+our\\s+following\\s+restaurants",
+    "suggestion": "Gift cards are available at the following restaurants",
+    "category": "Incorrect Grammar",
+    "example": "Gift cards are available at our following restaurants",
+    "finglishItem": "possessive pronoun + following",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "our\\s+following\\s+stops\\s+are\\s+at",
+    "suggestion": "Gift cards are available at these restaurants in our chain",
+    "category": "Incorrect Grammar",
+    "example": "Our following stops are at",
+    "finglishItem": "possessive pronoun + following",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "this\\s+course\\s+supports\\s+and\\s+prepares\\s+students\\s+studying\\s+abroad\\s+by\\s+providing\\s+them\\s+opportunities\\s+to\\s+practise",
+    "suggestion": "This course supports and prepares students studying abroad by providing them with opportunities to practise",
+    "category": "Incorrect Grammar",
+    "example": "This course supports and prepares students studying abroad by providing them opportunities to practise",
+    "finglishItem": "provide without with",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "saf\\s+is\\s+a\\s+proven\\s+solution\\s+reducing\\s+ghg\\s+emissions\\s+by\\s+up\\s+to\\s+\\d+%",
+    "suggestion": "SAF is a proven solution which reduces GHG emissions by up to 80%",
+    "category": "Incorrect Grammar",
+    "example": "SAF is a proven solution reducing GHG emissions by up to 80%",
+    "finglishItem": "run-on gerunds without commas",
+    "notes": "Search for gerunds following nouns at the start of a sentence.",
+    "manualReview": false
+  },
+  {
+    "pattern": "all\\s+journeys\\s+start\\s+from\\s+taking\\s+the\\s+first\\s+steps",
+    "suggestion": "All journeys start with taking the first steps",
+    "category": "Incorrect Grammar",
+    "example": "All journeys start from taking the first steps",
+    "finglishItem": "start from (gerund)",
+    "notes": "The search can specifically focus on \"start from\" + a gerund and suggest replacing \"from\" with \"with\" or \"from (verb)\" with \"with\" if there's a noun after the verb. ",
+    "manualReview": false
+  },
+  {
+    "pattern": "a\\s+broad\\s+scoped\\s+design\\s+phase\\s+was\\s+key\\s+in\\s+getting\\s+all\\s+the\\s+different\\s+needs\\s+into\\s+the\\s+project\\s+and\\s+that\\s+the\\s+new\\s+service\\s+would\\s+cater\\s+as\\s+a\\s+basis\\s+for\\s+other\\s+countries’\\s+and\\s+business\\s+areas’\\s+ecommerce\\s+solutions",
+    "suggestion": "A broad scoped design phase was key in getting all the different needs into the project and in the new service catering as a basis for other countries’ and business areas’ ecommerce solutions",
+    "category": "Incorrect Grammar",
+    "example": "A broad scoped design phase was key in getting all the different needs into the project and that the new service would cater as a basis for other countries’ and business areas’ ecommerce solutions",
+    "finglishItem": "that instead of gerund",
+    "notes": "Not essential to include right now. The pattern \"that the new service would cater\" is common. It's hard to pick out automatically which uses of \"that\" followed by an object, \"would\" and noun are incorrect and should be replaced by a gerund.",
+    "manualReview": false
+  },
+  {
+    "pattern": "every\\s+myrsky\\s+employee\\s+knows\\s+that\\s+the\\s+greatest\\s+power\\s+is\\s+in\\s+the\\s+nature",
+    "suggestion": "every Myrsky employee knows that the greatest power is in nature",
+    "category": "Incorrect Grammar",
+    "example": "every Myrsky employee knows that the greatest power is in the nature",
+    "finglishItem": "the nature",
+    "notes": "To save space, we can just search for \"in the nature\".",
+    "manualReview": false
+  },
+  {
+    "pattern": "myrsky\\s+speaks\\s+honestly\\s+about\\s+processes\\s+taking\\s+place\\s+in\\s+the\\s+society",
+    "suggestion": "Myrsky speaks honestly about processes taking place in society",
+    "category": "Incorrect Grammar",
+    "example": "Myrsky speaks honestly about processes taking place in the society",
+    "finglishItem": "the society",
+    "notes": "Limit to \"in the society\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "mesensei\\s+designs\\s+and\\s+creates\\s+mobile\\s+solutions\\s+for\\s+organisations\\s+and\\s+companies\\s+the\\s+company\\s+turned\\s+to\\s+kodan\\s+when\\s+they\\s+wanted\\s+to\\s+renew\\s+their\\s+software\\s+development\\s+processes",
+    "suggestion": "The company turned to Kodan when it wanted to renew their software development processes",
+    "category": "Incorrect Grammar",
+    "example": "Mesensei designs and creates mobile solutions for organisations and companies. The company turned to Kodan when they wanted to renew their software development processes",
+    "finglishItem": "\"they\" to mean company",
+    "notes": "Limit to sentences containing a capitalized company name",
+    "manualReview": false
+  },
+  {
+    "pattern": "fcg’s\\s+annual\\s+review\\s+for\\s+the\\s+year\\s+\\d+\\s+is\\s+now\\s+available",
+    "suggestion": "FCG’s Annual Review for 2022 is now available",
+    "category": "Incorrect Grammar",
+    "example": "FCG’s Annual Review for the year 2022 is now available",
+    "finglishItem": "year 2022",
+    "notes": "Search for all cases of \"the year NNNN\" and \"year NNNN\" that are NOT at the start of a sentence.",
+    "manualReview": false
+  },
+  {
+    "pattern": "the\\s+biggest\\s+individual\\s+projects\\s+in\\s+year\\s+\\d+\\s+were",
+    "suggestion": "The biggest individual projects in 2022 were",
+    "category": "Incorrect Grammar",
+    "example": "The biggest individual projects in year 2022 were",
+    "finglishItem": "year 2022",
+    "notes": "Search for all cases of \"the year NNNN\" and \"year NNNN\" that are NOT at the start of a sentence.",
+    "manualReview": false
+  },
+  {
+    "pattern": "\\d+\\s+gw",
+    "suggestion": "18.5 GW",
+    "category": "Incorrect Punctuation",
+    "example": "18,5 GW",
+    "finglishItem": "comma instead of decimal point",
+    "notes": "Search for commas used erroneously as decimal separators, not as thousands separators.",
+    "manualReview": false
+  },
+  {
+    "pattern": "the\\s+network\\s+business\\s+model\\s+is\\s+based\\s+on\\s+a\\s+broad\\s+network\\s+that\\s+is\\s+built\\s+around\\s+one\\s+or\\s+a\\s+few\\s+airports\\s+ie\\s+around\\s+the\\s+hub",
+    "suggestion": "The network business model is based on a broad network that is built around one or a few airports, i.e., around the hub",
+    "category": "Incorrect Punctuation",
+    "example": "The network business model is based on a broad network that is built around one or a few airports i.e. around the hub",
+    "finglishItem": "lack of comma before i.e.",
+    "notes": "Search for \"i.e.\" not preceded by or followed by a comma and suggest commas on either side.",
+    "manualReview": false
+  },
+  {
+    "pattern": "the\\s+practical\\s+operationalization\\s+of\\s+the\\s+flood\\s+forecast\\s+and\\s+warning\\s+system\\s+includes\\s+awareness-raising\\s+and\\s+familiarization",
+    "suggestion": "When the flood forecast and warning system is launched in practice, we made people aware of and familiar with it.",
+    "category": "Lengthiness",
+    "example": "The practical operationalization of the flood forecast and warning system includes awareness-raising and familiarization",
+    "finglishItem": "excessively long abstract nouns",
+    "notes": "In addition to \"operationalization\", \"operationalisation\", \"familiarisation\" and \"familiarization\", search for all words of 15 letters or more ending in \"isation\" or \"ization\".",
+    "manualReview": false
+  },
+  {
+    "pattern": "many\\s+free-of-charge\\s+events\\s+in\\s+helsinki\\s+on\\s+independence\\s+day",
+    "suggestion": "Many free events in Helsinki on Independence Day",
+    "category": "Lengthiness",
+    "example": "Many free-of-charge events in Helsinki on Independence Day",
+    "finglishItem": "free-of-charge",
+    "notes": "Search for both \"free of charge\" and \"free-of-charge\".",
+    "manualReview": false
+  },
+  {
+    "pattern": "our\\s+mission\\s+is\\s+to\\s+keep\\s+our\\s+customers\\s+at\\s+the\\s+forefront\\s+of\\s+digital\\s+evolution\\s+by\\s+utilising\\s+our\\s+diverse\\s+expertise",
+    "suggestion": "Our mission is to keep our customers at the forefront of digital evolution by using our diverse expertise",
+    "category": "Lengthiness",
+    "example": "Our mission is to keep our customers at the forefront of digital evolution by utilising our diverse expertise",
+    "finglishItem": "utilize, utilise",
+    "notes": "Search for \"utilise\", \"utilize\", and all forms of those verbs, as well as \"utilisation\" and \"utilization\".",
+    "manualReview": false
+  },
+  {
+    "pattern": "already\\s+in\\s+the\\s+design\\s+phase\\s+we\\s+clearly\\s+recognized\\s+new\\s+needs",
+    "suggestion": "As early as in the design phase we clearly recognized new needs",
+    "category": "Misuse of real English words",
+    "example": "Already in the design phase we clearly recognized new needs",
+    "finglishItem": "already",
+    "notes": "Two distinct issues: if \"already\" is before a temporal phrase beginning with \"in\", suggest \"as early as\" instead\"; but if \"already\" precedes words like \"during\", suggest deletion.",
+    "manualReview": false
+  },
+  {
+    "pattern": "what\\s+lamia\\s+brought\\s+to\\s+the\\s+table\\s+already\\s+early\\s+in\\s+the\\s+process\\s+was\\s+the\\s+headless\\s+approach",
+    "suggestion": "What Lamia brought to the table early in the process was the headless approach",
+    "category": "Misuse of real English words",
+    "example": "What Lamia brought to the table already early in the process was the headless approach",
+    "finglishItem": "already",
+    "notes": "Two distinct issues: if \"already\" is before a temporal phrase beginning with \"in\", suggest \"as early as\" instead\"; but if \"already\" precedes words like \"during\", suggest deletion.",
+    "manualReview": false
+  },
+  {
+    "pattern": "trainings\\s+played\\s+an\\s+important\\s+role\\s+already\\s+during\\s+the\\s+project",
+    "suggestion": "trainings played an important role during the project",
+    "category": "Misuse of real English words",
+    "example": "trainings played an important role already during the project",
+    "finglishItem": "already",
+    "notes": "Two distinct issues: if \"already\" is before a temporal phrase beginning with \"in\", suggest \"as early as\" instead\"; but if \"already\" precedes words like \"during\", suggest deletion.",
+    "manualReview": false
+  },
+  {
+    "pattern": "we\\s+offer\\s+funding\\s+advice\\s+as\\s+well\\s+as\\s+information\\s+and\\s+contacts\\s+in\\s+the\\s+target\\s+market",
+    "suggestion": "We offer funding, advice, information and contacts in the target market",
+    "category": "Misuse of real English words",
+    "example": "We offer funding, advice, as well as information and contacts in the target market",
+    "finglishItem": "as well as",
+    "notes": "Simply highlight all cases of \"as well as\" and suggest \"'As well as' is often unnecessary. Only use 'as well as' when the last item in your list is very distinct from the first items in your list. Otherwise, just use 'and'.\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "case\\s+seure",
+    "suggestion": "Testimonial: Seure",
+    "category": "Misuse of real English words",
+    "example": "Case Seure",
+    "finglishItem": "case",
+    "notes": "Search for all examples of \"Case\" followed by a capitalized word",
+    "manualReview": false
+  },
+  {
+    "pattern": "case\\s+r-kioski",
+    "suggestion": "Customer success story: R-kioski",
+    "category": "Misuse of real English words",
+    "example": "Case R-kioski",
+    "finglishItem": "case",
+    "notes": "Search for all examples of \"Case\" followed by a capitalized word",
+    "manualReview": false
+  },
+  {
+    "pattern": "case\\s+marimekko",
+    "suggestion": "What we did for Marimekko",
+    "category": "Misuse of real English words",
+    "example": "Case Marimekko",
+    "finglishItem": "case",
+    "notes": "Search for all examples of \"Case\" followed by a capitalized word",
+    "manualReview": false
+  },
+  {
+    "pattern": "it\\s+is\\s+customary\\s+to\\s+compliment\\s+the\\s+team\\s+spirit\\s+and\\s+smooth\\s+cooperation",
+    "suggestion": "It’s customary to praise others’ team spirit and smooth cooperation",
+    "category": "Misuse of real English words",
+    "example": "It is customary to compliment the team spirit and smooth cooperation",
+    "finglishItem": "compliment",
+    "notes": "Search for \"compliment\" in the same sentence as \"spirit\" or \"cooperation\" and suggest \"praise\" as a replacement.",
+    "manualReview": false
+  },
+  {
+    "pattern": "the\\s+measures\\s+of\\s+personnel\\s+satisfaction\\s+have\\s+gone\\s+in\\s+a\\s+better\\s+direction\\s+thanks\\s+to\\s+the\\s+cooperation",
+    "suggestion": "The measures of personnel satisfaction have gone in a better direction thanks to the service/consultation/Company Name",
+    "category": "Misuse of real English words",
+    "example": "The measures of personnel satisfaction have gone in a better direction thanks to the cooperation",
+    "finglishItem": "cooperation",
+    "notes": "Search specifically for \"the cooperation\" and suggest: \"Do you really mean cooperation, or do you mean a service your company provided to a client? If so, say that.\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "we\\s+have\\s+achieved\\s+a\\s+lot\\s+as\\s+a\\s+team\\s+-\\s+teamwork\\s+is\\s+at\\s+the\\s+heart\\s+of\\s+our\\s+success”\\s+enthuses\\s+calvin",
+    "suggestion": "We have achieved a lot as a team - teamwork is at the heart of our success,” says Calvin",
+    "category": "Misuse of real English words",
+    "example": "We have achieved a lot as a team - teamwork is at the heart of our success,” enthuses Calvin",
+    "finglishItem": "describes/continues/shares/clarifies, etc. -> says",
+    "notes": "Search for any verb other than \"say\", \"comment\", \"tell\", \"note\", \"begin\", \"conclude\", \"ask\" or \"answer\" after a quotation mark, or after a quotation mark and comma, and suggest replacing with \"says\"/\"said\".",
+    "manualReview": false
+  },
+  {
+    "pattern": "“the\\s+jury\\s+is\\s+not\\s+allowed\\s+to\\s+comment\\s+on\\s+anything\\s+during\\s+the\\s+competition\\s+so\\s+the\\s+shadow\\s+jury\\s+can\\s+shed\\s+some\\s+light\\s+on\\s+issues\\s+that\\s+the\\s+jury\\s+might\\s+be\\s+pondering\\s+on”\\s+clarifies\\s+soprano\\s+olga\\s+heikkilä",
+    "suggestion": "“The jury is not allowed to comment on anything during the competition, so the Shadow Jury can shed some light on issues that the jury might be pondering on”, says soprano Olga Heikkilä",
+    "category": "Misuse of real English words",
+    "example": "“The jury is not allowed to comment on anything during the competition, so the Shadow Jury can shed some light on issues that the jury might be pondering on”, clarifies soprano Olga Heikkilä",
+    "finglishItem": "describes/continues/shares/clarifies, etc. -> says",
+    "notes": "Search for any verb other than \"say\", \"comment\", \"tell\", \"note\", \"begin\", \"conclude\", \"ask\" or \"answer\" after a quotation mark, or after a quotation mark and comma, and suggest replacing with \"says\"/\"said\".",
+    "manualReview": false
+  },
+  {
+    "pattern": "we\\s+have\\s+despite\\s+the\\s+pandemic\\s+already\\s+built\\s+a\\s+solid\\s+foundation\\s+for\\s+it”\\s+shares\\s+pekka\\s+mattila",
+    "suggestion": "\"We have, despite the pandemic, already built a solid foundation for it,” says Pekka Mattila",
+    "category": "Misuse of real English words",
+    "example": "\"We have, despite the pandemic, already built a solid foundation for it,” shares Pekka Mattila",
+    "finglishItem": "describes/continues/shares/clarifies, etc. -> says",
+    "notes": "Search for any verb other than \"say\", \"comment\", \"tell\", \"note\", \"begin\", \"conclude\", \"ask\" or \"answer\" after a quotation mark, or after a quotation mark and comma, and suggest replacing with \"says\"/\"said\".",
+    "manualReview": false
+  },
+  {
+    "pattern": "although\\s+the\\s+integration\\s+of\\s+these\\s+systems\\s+has\\s+not\\s+been\\s+fully\\s+completed\\s+at\\s+all\\s+levels\\s+it\\s+does\\s+not\\s+prevent\\s+the\\s+launch\\s+of\\s+development\\s+work",
+    "suggestion": "Although the integration of these systems has not been fully completed at all levels, it does not prevent improvements being made.",
+    "category": "Misuse of real English words",
+    "example": "Although the integration of these systems has not been fully completed at all levels, it does not prevent the launch of development work.",
+    "finglishItem": "development work",
+    "notes": "Search for all examples of \"development work\" and suggest: \"What do you really mean by this? Can you rewrite it in a way that the reader instantly understands?\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "due\\s+to\\s+long\\s+winters\\s+nordic\\s+people\\s+have\\s+become\\s+accustomed\\s+to\\s+spending\\s+a\\s+lot\\s+of\\s+time\\s+at\\s+home",
+    "suggestion": "Long winters mean Nordic people spend a lot of time at home",
+    "category": "Misuse of real English words",
+    "example": "Due to long winters, Nordic people have become accustomed to spending a lot of time at home",
+    "finglishItem": "due to",
+    "notes": "Search for \"due to\" and suggest: \"Only say 'due to' when you mean something happening as a result of an unexpected but ultimately manageable interruption, like a strike or a power cut. Don't say something changes 'due to the war in Ukraine'. Use 'because' instead. And don't use 'due to' in marketing texts or sales copy. Say something more creative.\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "if\\s+your\\s+degree\\s+studies\\s+at\\s+a\\s+ukrainian\\s+higher\\s+education\\s+institution\\s+in\\s+the\\s+arts\\s+have\\s+been\\s+suspended\\s+due\\s+to\\s+the\\s+war\\s+in\\s+ukraine",
+    "suggestion": "If your degree studies at a Ukrainian higher education institution in the arts have been suspended because of the war in Ukraine",
+    "category": "Misuse of real English words",
+    "example": "If your degree studies at a Ukrainian higher education institution in the arts have been suspended due to the war in Ukraine",
+    "finglishItem": "due to",
+    "notes": "Search for \"due to\" and suggest: \"Only say 'due to' when you mean something happening as a result of an unexpected but ultimately manageable interruption, like a strike or a power cut. Don't say something changes 'due to the war in Ukraine'. Use 'because' instead. And don't use 'due to' in marketing texts or sales copy. Say something more creative.\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "the\\s+service\\s+benefits\\s+insurers\\s+by\\s+providing\\s+them\\s+with\\s+high-quality\\s+leads\\s+and\\s+enabling\\s+them\\s+to\\s+focus\\s+on\\s+delivering\\s+optimal\\s+solutions",
+    "suggestion": "the service benefits insurers by providing them with high-quality leads and allowing them to focus on delivering optimal solutions",
+    "category": "Misuse of real English words",
+    "example": "the service benefits insurers by providing them with high-quality leads and enabling them to focus on delivering optimal solutions",
+    "finglishItem": "enabling (pronoun) to",
+    "notes": "Suggest replacing \"enable (pronoun) to\" with \"allow (pronoun) to\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "each\\s+work\\s+environment\\s+is\\s+an\\s+individual\\s+entity\\s+whose\\s+specific\\s+features\\s+should\\s+always\\s+be\\s+taken\\s+into\\s+account\\s+in\\s+safety\\s+training",
+    "suggestion": "Each work environment is unique: its specific features should always be taken into account in safety training",
+    "category": "Misuse of real English words",
+    "example": "Each work environment is an individual entity whose specific features should always be taken into account in safety training",
+    "finglishItem": "entity",
+    "notes": "Suggest rewriting more clearly when the word \"entity\" appears.",
+    "manualReview": false
+  },
+  {
+    "pattern": "insta\\s+implements\\s+even\\s+the\\s+largest\\s+automation\\s+and\\s+digitalization\\s+projects\\s+with\\s+short\\s+lead\\s+times",
+    "suggestion": "Insta implements the largest automation and digitalization projects with short lead times",
+    "category": "Misuse of real English words",
+    "example": "Insta implements even the largest automation and digitalization projects with short lead times",
+    "finglishItem": "even the (superlative)",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "wärtsilä’s\\s+new\\s+flagship\\s+is\\s+a\\s+forerunner\\s+in\\s+responsible\\s+energy\\s+and\\s+marine\\s+industry",
+    "suggestion": "Wärtsilä’s new flagship breaks new ground in responsible energy and marine industry",
+    "category": "Misuse of real English words",
+    "example": "Wärtsilä’s new flagship is a forerunner in responsible energy and marine industry",
+    "finglishItem": "forerunner, frontrunner",
+    "notes": "Also suggest \"pioneer\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "metso\\s+is\\s+a\\s+frontrunner\\s+in\\s+sustainable\\s+technologies",
+    "suggestion": "Metso is an industry leader in sustainable technologies",
+    "category": "Misuse of real English words",
+    "example": "Metso is a frontrunner in sustainable technologies",
+    "finglishItem": "forerunner, frontrunner",
+    "notes": "Also suggest \"pioneer\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "with\\s+professionally\\s+crafted\\s+and\\s+carefully\\s+personalized\\s+content\\s+your\\s+business\\s+will\\s+attract(ed|s)?\\s+more\\s+interest\\s+gain\\s+appreciation\\s+and\\s+pave\\s+the\\s+way\\s+to\\s+purchase\\s+decisions",
+    "suggestion": "With professionally crafted and carefully personalized content, your business will attract more interest, gain clients’ appreciation, and pave the way to purchase decisions/\nWith professionally crafted and carefully personalized content, your business will attract more interest, become more respected in its field, and pave the way to purchase decisions",
+    "category": "Misuse of real English words",
+    "example": "With professionally crafted and carefully personalized content, your business will attract more interest, gain appreciation, and pave the way to purchase decisions",
+    "finglishItem": "gain appreciation",
+    "notes": "Suggest: \"Unless by 'gain appreciation' you mean 'increase in value', either say whose appreciation you've gained ('gain clients' appreciation) or say 'become more respected'.\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "get\\s+to\\s+know\\s+our\\s+projects\\s+from\\s+last\\s+year\\s+in\\s+our\\s+annual\\s+review",
+    "suggestion": "Read more about our projects from last year in our annual review/Explore our projects from last year in more detail in our annual review",
+    "category": "Misuse of real English words",
+    "example": "Get to know our projects from last year in our Annual Review",
+    "finglishItem": "get to know",
+    "notes": "Search for all forms of \"get to know\". Suggest: \"'Get to know' is used when people get to know each other. Don't use it in a headline when you want your readers to learn more, read more or explore something. Use another verb.\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "get\\s+to\\s+know\\s+our\\s+solutions",
+    "suggestion": "Check out our solutions/Read about our solutions",
+    "category": "Misuse of real English words",
+    "example": "Get to know our solutions",
+    "finglishItem": "get to know",
+    "notes": "Search for all forms of \"get to know\". Suggest: \"'Get to know' is used when people get to know each other. Don't use it in a headline when you want your readers to learn more, read more or explore something. Use another verb.\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "each\\s+project\\s+is\\s+unique\\s+but\\s+we\\s+prefer\\s+working\\s+in\\s+\\d+-week\\s+sprints\\s+heeding\\s+the\\s+best\\s+practices\\s+of\\s+agile",
+    "suggestion": "Each project is unique, but we prefer working in 2-week sprints that apply the best practices of agile",
+    "category": "Misuse of real English words",
+    "example": "Each project is unique, but we prefer working in 2-week sprints heeding the best practices of agile",
+    "finglishItem": "heed",
+    "notes": "Search for \"heed\" in the same sentence as \"practices\" or \"models\" and suggest \"apply\" as a replacement.",
+    "manualReview": false
+  },
+  {
+    "pattern": "our\\s+customer\\s+can\\s+rent\\s+a\\s+water\\s+treatment\\s+system\\s+for\\s+the\\s+needed\\s+time",
+    "suggestion": "Our customer can rent a water treatment system for the time needed/Our customer can rent a water treatment system for the necessary time",
+    "category": "Misuse of real English words",
+    "example": "Our customer can rent a water treatment system for the needed time",
+    "finglishItem": "necessary, needed",
+    "notes": "Search for \"needed\" before a noun and suggest replacement either with \"(noun) needed\" or \"necessary (noun)\".",
+    "manualReview": false
+  },
+  {
+    "pattern": "renewed\\s+site/website\\s+rocketed\\s+visitor\\s+numbers\\s+to\\s+a\\s+huge\\s+rise",
+    "suggestion": "Renewed online service rocketed visitor numbers to a huge rise",
+    "category": "Misuse of real English words",
+    "example": "Renewed site/website rocketed visitor numbers to a huge rise",
+    "finglishItem": "online service",
+    "notes": "Suggest replacement of \"online service\" with either \"site\" or \"website\".",
+    "manualReview": false
+  },
+  {
+    "pattern": "here\\s+are\\s+the\\s+ten\\s+biggest\\s+events\\s+we\\s+participate\\s+in",
+    "suggestion": "Here are the ten biggest events we’ll be attending",
+    "category": "Misuse of real English words",
+    "example": "Here are the ten biggest events we participate in",
+    "finglishItem": "participate",
+    "notes": "Search for \"participate\" with \"event\", \"survey\", \"open day\", \"conference\". Suggest: \"In English, we 'attend', 'go to' and 'be at' events, rather than 'participating in' them. For surveys, don't say 'participate': say 'answer', 'respond to' or 'take'.\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "we\\s+value\\s+your\\s+feedback\\s+–\\s+participate\\s+in\\s+our\\s+event\\s+survey",
+    "suggestion": "We Value Your Feedback – Take Our Event Survey",
+    "category": "Misuse of real English words",
+    "example": "We Value Your Feedback – Participate in Our Event Survey",
+    "finglishItem": "participate",
+    "notes": "Search for \"participate\" with \"event\", \"survey\", \"open day\", \"conference\". Suggest: \"In English, we 'attend', 'go to' and 'be at' events, rather than 'participating in' them. For surveys, don't say 'participate': say 'answer', 'respond to' or 'take'.\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "participate\\s+in\\s+hive\\s+helsinkis\\s+open\\s+day",
+    "suggestion": "Attend Hive Helsinki's Open Day",
+    "category": "Misuse of real English words",
+    "example": "Participate in Hive Helsinki's Open Day",
+    "finglishItem": "participate",
+    "notes": "Search for \"participate\" with \"event\", \"survey\", \"open day\", \"conference\". Suggest: \"In English, we 'attend', 'go to' and 'be at' events, rather than 'participating in' them. For surveys, don't say 'participate': say 'answer', 'respond to' or 'take'.\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "by\\s+paying\\s+attention\\s+to\\s+accessibility\\s+and\\s+the\\s+responsiveness\\s+of\\s+the\\s+user\\s+interface\\s+we\\s+make\\s+sure\\s+that\\s+your\\s+digital\\s+service\\s+is\\s+usable\\s+anywhere",
+    "suggestion": "We focus sharply on the accessibility and the responsiveness of the user interface to make sure that your digital service is usable anywhere",
+    "category": "Misuse of real English words",
+    "example": "By paying attention to accessibility and the responsiveness of the user interface we make sure that your digital service is usable anywhere",
+    "finglishItem": "pay attention",
+    "notes": "Search for all forms of \"pay attention to\" and suggest: \"'Pay attention to' is boring Finglish. Consider saying 'focus on' or something else instead.\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "one\\s+of\\s+the\\s+main\\s+reasons\\s+why\\s+my\\s+aunt\\s+had\\s+the\\s+possibility\\s+to\\s+do\\s+what\\s+she\\s+loved",
+    "suggestion": "one of the main reasons why my aunt had the opportunity to do what she loved",
+    "category": "Misuse of real English words",
+    "example": "one of the main reasons why my aunt had the possibility to do what she loved",
+    "finglishItem": "possibility to",
+    "notes": "Search for \"possibility to\" and suggest: \"When you say 'possibility', it sounds like the thing never happened. You could mean 'opportunity'.\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "i\\s+have\\s+also\\s+had\\s+a\\s+possibility\\s+to\\s+see\\s+comprehensively\\s+the\\s+progress\\s+of\\s+the\\s+telecommunications\\s+development",
+    "suggestion": "I have also had the opportunity to see comprehensively the progress of the telecommunications development",
+    "category": "Misuse of real English words",
+    "example": "I have also had a possibility to see comprehensively the progress of the telecommunications development",
+    "finglishItem": "possibility to",
+    "notes": "Search for \"possibility to\" and suggest: \"When you say 'possibility', it sounds like the thing never happened. You could mean 'opportunity'.\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "references",
+    "suggestion": "projects/case studies/customer success stories/past clients",
+    "category": "Misuse of real English words",
+    "example": "references",
+    "finglishItem": "reference",
+    "notes": "Suggest: \"If you mean clients you've served or projects you've done in the past, don't say 'references', because we don't use the word that way in English.\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "experience\\s+our\\s+renewed\\s+long-haul\\s+cabins",
+    "suggestion": "Experience our brand-new/overhauled/modernized long-haul cabins",
+    "category": "Misuse of real English words",
+    "example": "Experience our renewed long-haul cabins",
+    "finglishItem": "renew",
+    "notes": "Suggest: \"In English, we 'renew' driving licences, wedding vows and insurance policies. When you make something like new, you 'modernize', 'overhaul' or 'update'.\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "we\\s+sparred\\s+with\\s+sowellus\\s+over\\s+user\\s+experience\\s+design",
+    "suggestion": "Sowellus was our sparring partner for user experience design",
+    "category": "Misuse of real English words",
+    "example": "We sparred with Sowellus over user experience design",
+    "finglishItem": "spar",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "software\\s+developer\\s+aki\\s+panuma’s\\s+career\\s+at\\s+probot\\s+started\\s+with\\s+project\\s+periods\\s+during\\s+his\\s+studies",
+    "suggestion": "Software developer Aki Panuma’s career at Probot started with project periods while at university",
+    "category": "Misuse of real English words",
+    "example": "Software developer Aki Panuma’s career at Probot started with project periods during his studies",
+    "finglishItem": "(possessive pronoun) studies",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "we\\s+also\\s+take\\s+care\\s+of\\s+the\\s+reliability\\s+of\\s+your\\s+information\\s+systems",
+    "suggestion": "We also ensure the reliability of your information systems",
+    "category": "Misuse of real English words",
+    "example": "We also take care of the reliability of your information systems",
+    "finglishItem": "take care of",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "we\\s+felt\\s+that\\s+the\\s+cybersecurity\\s+team\\s+in\\s+particular\\s+needed\\s+tough\\s+experts\\s+as\\s+there\\s+was\\s+no\\s+room\\s+to\\s+compromise\\s+here",
+    "suggestion": "We felt that the cybersecurity team, in particular, needed seasoned/experienced/skilled experts, as there was no room to compromise here",
+    "category": "Misuse of real English words",
+    "example": "We felt that the cybersecurity team, in particular, needed tough experts, as there was no room to compromise here",
+    "finglishItem": "tough (experts)",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "the\\s+system\\s+makes\\s+it\\s+possible\\s+to\\s+see\\s+in\\s+real\\s+time\\s+how\\s+traffic\\s+runs\\s+and\\s+whether\\s+the\\s+various\\s+partners\\s+are\\s+sticking\\s+to\\s+their\\s+service\\s+obligations",
+    "suggestion": "The system makes it possible to see in real time how the trams/vehicles/trains are running and whether the various partners are sticking to their service obligations",
+    "category": "Misuse of real English words",
+    "example": "The system makes it possible to see in real time how traffic runs and whether the various partners are sticking to their service obligations",
+    "finglishItem": "traffic ",
+    "notes": "Suggest: \"In English, 'traffic' isn't the cars, vehicles, trams or trains on a road or track – it's 'congestion'. What you might mean is 'transport' or 'vehicles'.\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "it\\s+makes\\s+no\\s+sense\\s+using\\s+money\\s+for\\s+boring\\s+souvenirs\\s+when\\s+you\\s+can\\s+collect\\s+more\\s+interesting\\s+yourself",
+    "suggestion": "It makes no sense spending money on boring souvenirs when you can collect more interesting yourself",
+    "category": "Misuse of real English words",
+    "example": "It makes no sense using money for boring souvenirs, when you can collect more interesting yourself",
+    "finglishItem": "use money -> spend money",
+    "notes": "Search for \"use money\" in all its forms.",
+    "manualReview": false
+  },
+  {
+    "pattern": "please\\s+see\\s+our\\s+agent\\s+at\\s+the\\s+airport\\s+arrival\\s+service\\s+desk\\s+to\\s+verify\\s+the\\s+damage\\s+and\\s+create\\s+a\\s+damage\\s+report",
+    "suggestion": "please see our agent at the airport Arrival Service desk so they can verify the damage and create a damage report",
+    "category": "Misuse of real English words",
+    "example": "please see our agent at the airport Arrival Service desk to verify the damage and create a damage report",
+    "finglishItem": "verify",
+    "notes": "Suggest: \"'Verify' means 'see for yourself that it is true'. If you mean 'prove something to someone else', say that, or use another verb.\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "contact\\s+our\\s+customer\\s+service\\s+at\\s+messages\\s+and\\s+tell\\s+them\\s+that\\s+you\\s+want\\s+to\\s+combine\\s+your\\s+household’s\\s+insurance\\s+policies\\s+into\\s+a\\s+single\\s+whole",
+    "suggestion": "Contact our Customer Service at Messages and tell them that you want to consolidate all your household’s insurance policies into one policy",
+    "category": "Misuse of real English words",
+    "example": "Contact our Customer Service at Messages and tell them that you want to combine your household’s insurance policies into a single whole",
+    "finglishItem": "a single whole",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "works",
+    "suggestion": "Our work",
+    "category": "Misuse of real English words",
+    "example": "Works",
+    "finglishItem": "works",
+    "notes": "Search for capitalized headlines \"Works\" and \"Our Works\" in those specific forms",
+    "manualReview": false
+  },
+  {
+    "pattern": "our\\s+works",
+    "suggestion": "Projects",
+    "category": "Misuse of real English words",
+    "example": "Our Works",
+    "finglishItem": "works",
+    "notes": "Search for capitalized headlines \"Works\" and \"Our Works\" in those specific forms",
+    "manualReview": false
+  },
+  {
+    "pattern": "the\\s+importance\\s+of\\s+automation\\s+and\\s+data\\s+utilisation\\s+in\\s+business\\s+is\\s+growing\\s+and\\s+intelligent\\s+business\\s+is\\s+the\\s+next\\s+level\\s+of\\s+digitalisation",
+    "suggestion": "The importance of automation and data utilisation in business is growing. Intelligent business is the next level of digitalisation.",
+    "category": "Readability",
+    "example": "The importance of automation and data utilisation in business is growing, and intelligent business is the next level of digitalisation.",
+    "finglishItem": "comma, and instead of two sentences",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "automation\\s+was\\s+implemented\\s+using\\s+rotary\\s+indexing\\s+table",
+    "suggestion": "Automation was done using rotary indexing table",
+    "category": "Readability",
+    "example": "Automation was implemented using rotary indexing table",
+    "finglishItem": "implement",
+    "notes": "Suggest all forms of \"implement\" are replaced with \"do\", \"run\" or \"conduct\".",
+    "manualReview": false
+  },
+  {
+    "pattern": "check\\s+out\\s+the\\s+kojamo\\s+sustainability\\s+programme\\s+in\\s+the\\s+form\\s+of\\s+a\\s+podcast",
+    "suggestion": "Check out the Kojamo Sustainability programme podcast",
+    "category": "Readability",
+    "example": "Check out the Kojamo Sustainability programme in the form of a podcast",
+    "finglishItem": "in the form of",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "clear\\s+guidelines\\s+on\\s+the\\s+future\\s+of\\s+the\\s+company\\s+and\\s+the\\s+intentions\\s+of\\s+its\\s+owners",
+    "suggestion": "clear guidelines on the company’s future and its owners’ intentions",
+    "category": "Readability",
+    "example": "clear guidelines on the future of the company and the intentions of its owners",
+    "finglishItem": "lack of possessive",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "visas\\s+are\\s+issued\\s+by\\s+finnish\\s+diplomatic\\s+missions\\s+abroad",
+    "suggestion": "Finnish diplomatic missions abroad issue visas.",
+    "category": "Readability",
+    "example": "Visas are issued by Finnish diplomatic missions abroad.",
+    "finglishItem": "passive when there is a subject",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "basics\\s+of\\s+open\\s+and\\s+responsible\\s+science\\s+is\\s+aimed\\s+at\\s+uef\\s+and\\s+yufe\\s+network\\s+graduate\\s+students\\s+but\\s+the\\s+course\\s+material\\s+is\\s+usable\\s+to\\s+everyone",
+    "suggestion": "Basics of Open and Responsible Science is aimed at UEF and YUFE network graduate students, but everyone can use the course material",
+    "category": "Readability",
+    "example": "Basics of Open and Responsible Science is aimed at UEF and YUFE network graduate students, but the course material is usable to everyone",
+    "finglishItem": "usable",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "as\\s+part\\s+of\\s+turku\\s+university\\s+hospital\\s+auria\\s+biobank\\s+is\\s+among\\s+other\\s+things\\s+a\\s+repository\\s+of\\s+over\\s+1m+\\s+tissue\\s+samples\\s+from\\s+patients",
+    "suggestion": "As part of Turku University Hospital, Auria Biobank is a repository of over 1M+ tissue samples from patients",
+    "category": "Verbosity",
+    "example": "As part of Turku University Hospital, Auria Biobank, is, among other things, a repository of over 1M+ tissue samples from patients",
+    "finglishItem": "among other things",
+    "notes": "Search for \"among other things\" and \"among other factors\" and suggest: \"Nobody cares whether the thing is one of many other things! It's probably completely irrelevant, so just leave it out.\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "is\\s+it\\s+possible\\s+that\\s+fares\\s+will\\s+fall",
+    "suggestion": "Could/Can fares fall",
+    "category": "Verbosity",
+    "example": "Is it possible that fares will fall",
+    "finglishItem": "be possible",
+    "notes": "Suggest replacing all forms of \"be possible\" with \"can\" or \"could\".",
+    "manualReview": false
+  },
+  {
+    "pattern": "myrsky’s\\s+task\\s+is\\s+to\\s+produce\\s+domestic\\s+renewable\\s+energy\\s+to\\s+strengthen\\s+local\\s+vitality\\s+improve\\s+finland’s\\s+self-sufficiency\\s+and\\s+support\\s+the\\s+green\\s+transition\\s+työmaa\\s+consequently\\s+(start(s|ed|ing)?\\s+to|begin(s|ning|ned)?\\s+to)?\\s+refine\\s+an\\s+idea\\s+of\\s+a\\s+continuously\\s+renewing\\s+company\\s+with\\s+the\\s+environment\\s+as\\s+one\\s+of\\s+its\\s+most\\s+important\\s+partners",
+    "suggestion": "Myrsky’s task is to produce domestic renewable energy to strengthen local vitality, improve Finland’s self-sufficiency and support the green transition. That is why Työmaa started to refine an idea of a continuously renewing company with the environment as one of its most important partners.",
+    "category": "Verbosity",
+    "example": "Myrsky’s task is to produce domestic renewable energy to strengthen local vitality, improve Finland’s self-sufficiency and support the green transition. Työmaa consequently started to refine an idea of a continuously renewing company with the environment as one of its most important partners.",
+    "finglishItem": "consequently",
+    "notes": "Suggest: \"'Consequently' is too long. Either say 'that is why' or say nothing at all. It's often obvious that something is a consequence of something else.\"",
+    "manualReview": true
+  },
+  {
+    "pattern": "learn\\s+more\\s+about\\s+different\\s+sustainable\\s+palm\\s+oil\\s+options",
+    "suggestion": "Learn more about sustainable palm oil options",
+    "category": "Verbosity",
+    "example": "Learn more about different sustainable palm oil options",
+    "finglishItem": "different",
+    "notes": "Search for \"different\" within a few words of \"options\" and \"stages\".",
+    "manualReview": false
+  },
+  {
+    "pattern": "this\\s+tool\\s+allowed\\s+us\\s+to\\s+unify\\s+and\\s+replace\\s+several\\s+separate\\s+tools\\s+and\\s+speed\\s+up\\s+the\\s+different\\s+work\\s+stages\\s+of\\s+energy\\s+system\\s+and\\s+energy\\s+consumption\\s+calculations",
+    "suggestion": "This tool allowed us to unify and replace several separate tools and speed up the work stages of energy system and energy consumption calculations",
+    "category": "Verbosity",
+    "example": "This tool allowed us to unify and replace several separate tools and speed up the different work stages of energy system and energy consumption calculations",
+    "finglishItem": "different",
+    "notes": "Search for \"different\" within a few words of \"options\" and \"stages\".",
+    "manualReview": false
+  },
+  {
+    "pattern": "we\\s+offer\\s+diverse\\s+opportunities\\s+for\\s+continuous\\s+improvement\\s+of\\s+your\\s+professional\\s+competence\\s+in\\s+line\\s+with\\s+your\\s+own\\s+goals",
+    "suggestion": "We offer extensive opportunities for continuous improvement of your professional competence, in line with your own goals",
+    "category": "Verbosity",
+    "example": "We offer diverse opportunities for continuous improvement of your professional competence, in line with your own goals",
+    "finglishItem": "diverse",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "we\\s+provide\\s+eg\\s+the\\s+following\\s+services\\s+for\\s+faculty\\s+and\\s+staff",
+    "suggestion": "For example, we provide the following services for faculty and staff",
+    "category": "Verbosity",
+    "example": "We provide e.g. the following services for faculty and staff",
+    "finglishItem": "e.g. (the abbreviation in particular)",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "the\\s+error\\s+situation\\s+in\\s+the\\s+online\\s+store\\s+has\\s+been\\s+corrected",
+    "suggestion": "The situation in the online store has been corrected",
+    "category": "Verbosity",
+    "example": "The error situation in the online store has been corrected",
+    "finglishItem": "error situation",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "we\\s+help(s|ed)?\\s+our\\s+customers\\s+to\\s+improve\\s+their\\s+own\\s+recycling\\s+rate\\s+by\\s+means\\s+of\\s+planned\\s+origin\\s+sorting\\s+we\\s+take\\s+care\\s+of\\s+the\\s+collection\\s+of\\s+materials\\s+with\\s+collection\\s+solutions\\s+that\\s+promote\\s+sorting\\s+and\\s+we\\s+deliver\\s+the\\s+materials\\s+for\\s+further\\s+processing\\s+into\\s+recycled\\s+raw\\s+materials\\s+for\\s+industry",
+    "suggestion": "We help our customers recycle more through planned origin sorting. We take collect waste at source using solutions that promote sorting. We transport the materials for further processing into recycled raw materials for industry.",
+    "category": "Verbosity",
+    "example": "We help our customers to improve their own recycling rate by means of planned origin sorting, we take care of the collection of materials with collection solutions that promote sorting, and we deliver the materials for further processing into recycled raw materials for industry.",
+    "finglishItem": "excessively long sentences",
+    "notes": "Search for all sentences longer than 25 words.",
+    "manualReview": true
+  },
+  {
+    "pattern": "we\\s+support\\s+your\\s+career\\s+development\\s+for\\s+example\\s+we\\s+offer\\s+learning\\s+programmes\\s+for\\s+juniors\\s+have\\s+lots\\s+of\\s+internal\\s+trainings\\s+and\\s+all\\s+our\\s+employees\\s+become\\s+certified\\s+business\\s+technology\\s+professionals",
+    "suggestion": "We support your career development. We offer learning programmes for juniors, have lots of internal trainings, and all our employees become certified business technology professionals.",
+    "category": "Verbosity",
+    "example": "We support your career development. For example, we offer learning programmes for juniors, have lots of internal trainings, and all our employees become certified business technology professionals.",
+    "finglishItem": "for example",
+    "notes": "Suggest: \"Only say 'for example' if it's really an example. Don't use it before a full list of all the examples.\"",
+    "manualReview": false
+  },
+  {
+    "pattern": "we\\s+created\\s+a\\s+web\\s+app\\s+called\\s+oma\\s+puhti\\s+where\\s+people\\s+can\\s+check\\s+their\\s+test\\s+results\\s+and\\s+if\\s+needed\\s+contact\\s+a\\s+doctor",
+    "suggestion": "We created a web app called Oma Puhti, where people can check their test results and contact a doctor.",
+    "category": "Verbosity",
+    "example": "We created a web app called Oma Puhti, where people can check their test results and if needed, contact a doctor.",
+    "finglishItem": "if needed",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "yes\\s+it\\s+can\\s+if\\s+you\\s+wish\\s+you\\s+can\\s+use\\s+the\\s+gift\\s+card\\s+to\\s+pay\\s+part\\s+of\\s+the\\s+total\\s+amount\\s+of\\s+your\\s+purchase",
+    "suggestion": "Yes, it can. You can use the gift card to pay part of the total amount of your purchase.",
+    "category": "Verbosity",
+    "example": "Yes, it can. If you wish, you can use the gift card to pay part of the total amount of your purchase.",
+    "finglishItem": "if you wish",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "in\\s+addition\\s+to\\s+placing\\s+orders\\s+via\\s+our\\s+online\\s+service\\s+you\\s+can\\s+also\\s+do\\s+so\\s+via\\s+the\\s+traditional\\s+channels",
+    "suggestion": "In addition to placing orders via our online service, you can do so via the traditional channels",
+    "category": "Verbosity",
+    "example": "In addition to placing orders via our online service, you can also do so via the traditional channels",
+    "finglishItem": "in addition to + also",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "seven\\s+finnish\\s+municipalities\\s+are\\s+building\\s+a\\s+platform\\s+that\\s+will\\s+bring\\s+together\\s+information\\s+systems\\s+and\\s+services\\s+for\\s+comprehensive\\s+and\\s+upper\\s+secondary\\s+school\\s+students\\s+teachers\\s+parents\\s+and\\s+administrators\\s+in\\s+the\\s+future\\s+in\\s+practice\\s+the\\s+platform\\s+makes\\s+life\\s+easier\\s+for\\s+and\\s+frees\\s+up\\s+time\\s+for\\s+teaching\\s+and\\s+student\\s+support",
+    "suggestion": "Seven Finnish municipalities are building a platform that will bring together information, systems and services for comprehensive and upper secondary school students, teachers, parents and administrators in the future. The platform makes life easier for and frees up time for teaching and student support.",
+    "category": "Verbosity",
+    "example": "Seven Finnish municipalities are building a platform that will bring together information, systems and services for comprehensive and upper secondary school students, teachers, parents and administrators in the future. In practice, the platform makes life easier for and frees up time for teaching and student support.",
+    "finglishItem": "in practice",
+    "notes": "",
+    "manualReview": true
+  },
+  {
+    "pattern": "plan\\s+projects\\s+in\\s+such\\s+a\\s+way\\s+that\\s+they\\s+are\\s+sensible\\s+profitable\\s+and\\s+sustainable",
+    "suggestion": "Plan projects so they are sensible, profitable, and sustainable",
+    "category": "Verbosity",
+    "example": "Plan projects in such a way that they are sensible, profitable, and sustainable",
+    "finglishItem": "in such a way that",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "i\\s+work\\s+at\\s+codento\\s+a\\s+consulting\\s+company\\s+specializing\\s+in\\s+cloud\\s+technology\\s+software\\s+development\\s+and\\s+data/ai\\s+topics\\s+and\\s+my\\s+job\\s+description\\s+includes\\s+among\\s+other\\s+things\\s+finding\\s+the\\s+right\\s+talent\\s+for\\s+our\\s+clients",
+    "suggestion": "I work at Codento, a consulting company specializing in cloud technology, software development, and data/AI topics, and my job description includes finding the right talent for our clients.",
+    "category": "Verbosity",
+    "example": "I work at Codento, a consulting company specializing in cloud technology, software development, and data/AI topics, and my job description includes, among other things, finding the right talent for our clients.",
+    "finglishItem": "include, among other things",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "fortum’s\\s+smart\\s+electricity\\s+contracts\\s+and\\s+additional\\s+services\\s+bring\\s+predictability\\s+and\\s+ease\\s+to\\s+your\\s+home’s\\s+electricity\\s+matters",
+    "suggestion": "Fortum’s smart electricity contracts and additional services bring predictability and ease to your home’s electricity.",
+    "category": "Verbosity",
+    "example": "Fortum’s smart electricity contracts and additional services bring predictability and ease to your home’s electricity matters.",
+    "finglishItem": "matters",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "you\\s+can\\s+take\\s+care\\s+of\\s+your\\s+insurance\\s+and\\s+claims\\s+matters\\s+quickly\\s+and\\s+easily\\s+via\\s+phone",
+    "suggestion": "You can take care of your insurance and claims quickly and easily via phone.",
+    "category": "Verbosity",
+    "example": "You can take care of your insurance and claims matters quickly and easily via phone.",
+    "finglishItem": "matters",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "what\\s+made\\s+the\\s+case\\s+special\\s+was\\s+that\\s+all\\s+technology\\s+and\\s+other\\s+choices\\s+were\\s+made\\s+keeping\\s+in\\s+mind\\s+paulig’s\\s+broader\\s+ecommerce\\s+business",
+    "suggestion": "What made the case special was that all technology and other choices were made with Paulig’s broader ecommerce business in mind",
+    "category": "Verbosity",
+    "example": "What made the case special was that all technology and other choices were made keeping in mind Paulig’s broader ecommerce business",
+    "finglishItem": "multi-word verb in gerund",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "the\\s+reduced\\s+number\\s+of\\s+packing\\s+parts\\s+also\\s+reduces\\s+the\\s+number\\s+of\\s+storage\\s+places\\s+required",
+    "suggestion": "Fewer packing parts also means fewer storage places required",
+    "category": "Verbosity",
+    "example": "The reduced number of packing parts also reduces the number of storage places required",
+    "finglishItem": "reduced number",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "regardless\\s+of\\s+the\\s+channel\\s+your\\s+company\\s+can\\s+produce\\s+a\\s+whole\\s+and\\s+targeted\\s+customer\\s+experience\\s+simultaneously\\s+more\\s+efficient\\s+customer\\s+information\\s+management\\s+enable(s|d)?\\s+additional\\s+sales",
+    "suggestion": "Regardless of the channel, your company can produce a whole and targeted customer experience. More efficient customer information management enables additional sales.",
+    "category": "Verbosity",
+    "example": "Regardless of the channel, your company can produce a whole and targeted customer experience. Simultaneously, more efficient customer information management enables additional sales.",
+    "finglishItem": "simultaneously, at the same time",
+    "notes": "Search for \"simultaneously\" at the start of a sentence and suggest deletion.",
+    "manualReview": false
+  },
+  {
+    "pattern": "more\\s+information\\s+about\\s+the\\s+possible\\s+uses\\s+of\\s+ai\\s+in\\s+finnish\\s+health\\s+care\\s+will\\s+soon\\s+be\\s+available\\s+when\\s+the\\s+survey\\s+work\\s+done\\s+by\\s+the\\s+ministry\\s+of\\s+social\\s+affairs\\s+and\\s+health",
+    "suggestion": "More information about the possible uses of AI in Finnish health care will soon be available when the survey/study/questionnaire done by the Ministry of Social Affairs and Health",
+    "category": "Verbosity",
+    "example": "More information about the possible uses of AI in Finnish health care will soon be available when the survey work done by the Ministry of Social Affairs and Health",
+    "finglishItem": "survey work, investigation work",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "together\\s+with\\s+our\\s+partners\\s+we\\s+are\\s+on\\s+a\\s+journey\\s+toward\\s+an\\s+emission-free\\s+energy\\s+system",
+    "suggestion": "With our partners, we are on a journey toward an emission-free energy system",
+    "category": "Verbosity",
+    "example": "Together with our partners, we are on a journey toward an emission-free energy system",
+    "finglishItem": "together with",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "we\\s+offer\\s+versatile\\s+services\\s+for\\s+private\\s+customers\\s+such\\s+as\\s+daily\\s+banking\\s+loans\\s+savings\\s+and\\s+investments\\s+as\\s+well\\s+as\\s+extensive\\s+owner-customer\\s+benefits",
+    "suggestion": "We offer a wide range of services for private customers, such as daily banking, loans, savings and investments, as well as extensive owner-customer benefits",
+    "category": "Verbosity",
+    "example": "We offer versatile services for private customers, such as daily banking, loans, savings and investments, as well as extensive owner-customer benefits",
+    "finglishItem": "versatile",
+    "notes": "",
+    "manualReview": false
+  },
+  {
+    "pattern": "your\\s+rights\\s+with\\s+regard\\s+to\\s+the\\s+processing\\s+of\\s+personal\\s+data",
+    "suggestion": "Your personal data processing rights",
+    "category": "Verbosity",
+    "example": "Your rights with regard to the processing of personal data",
+    "finglishItem": "with regard to",
+    "notes": "",
+    "manualReview": false
+  }
+]
