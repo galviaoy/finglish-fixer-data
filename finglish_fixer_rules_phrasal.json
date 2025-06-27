@@ -112,12 +112,20 @@
     "manualReview": false
   },
   {
-    "finglishItem": "also",
-    "pattern": "\\b(also)\\b",
-    "category": "Incorrect Grammar",
-    "suggestion": "Finglish phrase: 'also'. Consider rewriting for clarity.",
-    "manualReview": false
-  },
+  "finglishItem": "also (before be verb)",
+  "pattern": "\\balso\\s+(is|are|was|were|has been|have been|will be)\\b",
+  "suggestion": "'Also' should come after the verb 'be'. For example, say 'is also' instead of 'also is'.",
+  "category": "Incorrect Grammar",
+  "manualReview": false
+},
+{
+  "finglishItem": "also (after verb)",
+  "pattern": "\\b\\w+\\s+also\\s+\\w+\\b",
+  "suggestion": "'Also' should come before the main verb. For example, say 'also cover' instead of 'cover also'.",
+  "category": "Incorrect Grammar",
+  "manualReview": false
+}
+
   {
     "finglishItem": "definite article, common noun, proper noun order",
     "pattern": "\\b(definite article| common noun| proper noun order)\\b",
