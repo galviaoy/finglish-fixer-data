@@ -99,7 +99,8 @@
     "finglishItem": "also",
     "pattern": "\\balso\\b",
     "category": "Incorrect Grammar",
-    "suggestion": "This 'also' might be in the wrong position. Place it before the main verb (or after 'be')."
+    "suggestion": "This 'also' might be in the wrong position. Place it before the main verb (or after 'be').",
+    "customHandler": "checkAlsoPosition"
   },
   {
     "finglishItem": "definite article, common noun, proper noun order",
@@ -402,7 +403,7 @@
     "suggestion": "This phrase might sound unnatural. Consider revising for clarity and native tone."
   },
   {
-    "finglishItem": "traffic ",
+    "finglishItem": "traffic",
     "pattern": "\\btraffic\\b",
     "category": "Misuse of real English words",
     "suggestion": "Suggest: \"In English, 'traffic' isn't the cars, vehicles, trams or trains on a road or track – it's 'congestion'. What you might mean is 'transport' or 'vehicles'.\""
