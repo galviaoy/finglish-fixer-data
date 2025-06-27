@@ -1,57 +1,709 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <base target="_top">
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        padding: 10px;
-      }
-      .suggestion {
-        border-bottom: 1px solid #ccc;
-        padding: 8px 0;
-      }
-      .suggestion strong {
-        color: #003366;
-      }
-      button {
-        margin-top: 5px;
-      }
-    </style>
-  </head>
-  <body>
-    <h2>Finglish Fixer</h2>
-    <div id="results">Scanning document...</div>
-
-    <script>
-      // Call server-side function and pass results to display
-      google.script.run.withSuccessHandler(displaySuggestions).getSuggestionsFromGitHub();
-
-      function displaySuggestions(suggestions) {
-        const container = document.getElementById("results");
-        container.innerHTML = '';
-
-        if (suggestions.length === 0) {
-          container.innerHTML = "<p>No Finglish issues found 🎉</p>";
-          return;
-        }
-
-        suggestions.forEach((sug) => {
-          const el = document.createElement("div");
-          el.className = "suggestion";
-          el.innerHTML = `
-            <strong>${sug.finglishItem}</strong><br>
-            <em>Matched text: "${sug.matchedText}"</em><br>
-            <p>Suggestion: ${sug.suggestion}</p>
-            <button onclick="jumpTo(${sug.index}, ${sug.length})">Go to match</button>
-          `;
-          container.appendChild(el);
-        });
-      }
-
-      function jumpTo(start, length) {
-        google.script.run.jumpToMatch(start, length);
-      }
-    </script>
-  </body>
-</html>
+[
+  {
+    "finglishItem": "attract feedback",
+    "pattern": "battract\\s+feedback\\b",
+    "suggestion": "The brand has received lots of positive feedback",
+    "category": "Fake Idiom",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "gather attendees",
+    "pattern": "bgather\\s+attendees\\b",
+    "suggestion": "The event attracted close to 300 attendees",
+    "category": "Fake Idiom",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "heavy planning",
+    "pattern": "bheavy\\s+planning\\b",
+    "suggestion": "Keep it lean and manage the projects without cumbersome/burdensome/unnecessarily extensive resource planning!",
+    "category": "Fake Idiom",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "long line, longest line",
+    "pattern": "blong\\s+line,\\s+longest\\s+line\\b",
+    "suggestion": "One of PehuTec’s most experienced telecommunications pioneers is electronics designer Jorma Savolainen; Heikki Silvennoinen, a legendary Finnish blues guitarist and singer",
+    "category": "Fake Idiom",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "with a low threshold",
+    "pattern": "bwith\\s+a\\s+low\\s+threshold\\b",
+    "suggestion": "Career talk open to everyone; With Pihlajalinna’s Worry in Mind service, employees can feel free to contact the mental health line at any time they are worried about something, big or small; With us, you can develop your entrepreneurial skills and ideas with little risk",
+    "category": "Fake Idiom",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "move around in",
+    "pattern": "bmove\\s+around\\s+in\\b",
+    "suggestion": "There are many of those who log into the systems and use/enter premises",
+    "category": "Fake Idiom",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "on the other hand",
+    "pattern": "bon\\s+the\\s+other\\s+hand\\b",
+    "suggestion": "Wertti, the end result of the cooperation between HUNT AI and Kodan, is a user-friendly online service that makes it easy for consumers to communicate with insurance companies. It helps consumers submit insurance quote requests effortlessly through a simple and adaptive process, matching their needs with multiple offers from various companies.\nThe service also benefits insurers by providing them with high-quality leads and enabling them to focus on delivering optimal solutions for clients. Insurers no longer have to rely on cold calls, which may also be prohibited soon due to EU regulations.",
+    "category": "Fake Idiom",
+    "explanation": "This is a literal or non-native phrase. The program should search for paragraphs with \"on the other hand\" which are preceded by paragraphs which do NOT contain \"on the one hand\"."
+  },
+  {
+    "finglishItem": "soonest possible",
+    "pattern": "bsoonest\\s+possible\\b",
+    "suggestion": "Let us know what you are interested in and we will contact you as soon as possible.",
+    "category": "Fake Idiom",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "strong reaction",
+    "pattern": "bstrong\\s+reaction\\b",
+    "suggestion": "Testing the plugs immediately had a positive effect: the high level of stress caused by noise started to decrease and the idea of refining the earplugs came into the mind.",
+    "category": "Fake Idiom",
+    "explanation": "This is a literal or non-native phrase. Ask the user: \"'Strong reaction' in English means a negative reaction. Is this what you meant? If not, consider 'positive effect'.\""
+  },
+  {
+    "finglishItem": "take into use",
+    "pattern": "btake\\s+into\\s+use\\b",
+    "suggestion": "The company deploys/commissions/launches the system",
+    "category": "Fake Idiom",
+    "explanation": "This is a literal or non-native phrase. Search for all forms of \"take into use\", including \"taken into use\", \"took into use\", etc. Also search for forms of \"take into use\" where the object comes between: \"The system was taken gradually into use\"."
+  },
+  {
+    "finglishItem": "tens of",
+    "pattern": "btens\\s+of\\b",
+    "suggestion": "If the system consists of multiple servers and dozens of cameras, then we recommend proper server hardware with client workstations",
+    "category": "Fake Idiom",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "that’s given",
+    "pattern": "bthat’s\\s+given\\b",
+    "suggestion": "You want results. That’s a given.",
+    "category": "Fake Idiom",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "we at",
+    "pattern": "bwe\\s+at\\b",
+    "suggestion": "Here at Barona, which was founded in Finland at the turn of the millennium, we ",
+    "category": "Fake Idiom",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "work community",
+    "pattern": "bwork\\s+community\\b",
+    "suggestion": "Goal-driven, systematic development of supervisors’ managerial skills and the functions of workplaces/teams enables employees’ occupational wellbeing and the success of business operations.",
+    "category": "Fake Idiom",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "working life",
+    "pattern": "bworking\\s+life\\b",
+    "suggestion": "The course is designed especially for international students and job seekers who wish to know more about what working in Finland is like.",
+    "category": "Fake Idiom",
+    "explanation": "This is a literal or non-native phrase. Also search for \"work life\" and \"worklife\". The program can also suggest a simple replacement of \"working life\", \"work life\" and \"worklife\" with \"world of work\" or \"working world\"."
+  },
+  {
+    "finglishItem": "in connection with",
+    "pattern": "bin\\s+connection\\s+with\\b",
+    "suggestion": "Rapid HIV testing in a mobile unit at/during/in conjunction with Bear Picnic",
+    "category": "Fake Idiom",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "also",
+    "pattern": "balso\\b",
+    "suggestion": "Does the payment also cover the return flight?; A three-mile designated off-road cycling trail is also offered",
+    "category": "Incorrect Grammar",
+    "explanation": "This is a literal or non-native phrase. The program should search for two main incorrect usages of Finglish: placing \"also\" after the main verb (a verb other than \"be\"), and placing \"also\" before the verb \"be\"."
+  },
+  {
+    "finglishItem": "definite article, common noun, proper noun order",
+    "pattern": "bdefinite\\s+article,\\s+common\\s+noun,\\s+proper\\s+noun\\s+order\\b",
+    "suggestion": "Accessibility at the Aleksandria Learning Centre",
+    "category": "Incorrect Grammar",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "especially, misplaced and misused",
+    "pattern": "bespecially,\\s+misplaced\\s+and\\s+misused\\b",
+    "suggestion": "The increase in number of passengers was especially visible in the North Atlantic and European routes; our customers are now booking holiday trips, especially for their autumn leave and for the upcoming winter season; Covid vaccination coverage is improving swiftly, especially in Asia",
+    "category": "Incorrect Grammar",
+    "explanation": "This is a literal or non-native phrase. Two distinct issues: if \"especially\" follows an adjective, the order of the adjective and adverb should be reversed. But if \"especially\" follows something other than an adjective, then a comma should be inserted before \"especially\"."
+  },
+  {
+    "finglishItem": "even up to (number)",
+    "pattern": "beven\\s+up\\s+to\\s+\\(number\\)\\b",
+    "suggestion": "Over its life cycle, SAF lowers carbon emissions drastically, by as much as 80%* compared to fossil jet fuel.",
+    "category": "Incorrect Grammar",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "experience/expertise from -> over, spanning",
+    "pattern": "bexperience/expertise\\s+from\\s+\\->\\s+over,\\s+spanning\\b",
+    "suggestion": "Four decades of telecommunications expertise; Telecommunications expertise spanning four decades; Telecommunications expertise acquired over four decades",
+    "category": "Incorrect Grammar",
+    "explanation": "This is a literal or non-native phrase. The issue specifically concerns \"from\" when followed by a time period and when following \"expertise\" or \"experience\""
+  },
+  {
+    "finglishItem": "apply from -> to",
+    "pattern": "bapply\\s+from\\s+\\->\\s+to\\b",
+    "suggestion": "You can apply to Kela for private daycare allowance",
+    "category": "Incorrect Grammar",
+    "explanation": "This is a literal or non-native phrase. Specifically concerns the verb \"apply\". Note that the suggestion can also be for new word order."
+  },
+  {
+    "finglishItem": "go through",
+    "pattern": "bgo\\s+through\\b",
+    "suggestion": "The headless architecture was gone over especially thoroughly and different options discussed along the way",
+    "category": "Incorrect Grammar",
+    "explanation": "This is a literal or non-native phrase. \"Go through\" in the sense \"discuss\", not physically go through, like \"go through the park for a shortcut\"."
+  },
+  {
+    "finglishItem": "incorrect comma before “if”",
+    "pattern": "bincorrect\\s+comma\\s+before\\s+“if”\\b",
+    "suggestion": "What to do if we are not sure about the trustworthiness of external work force?",
+    "category": "Incorrect Grammar",
+    "explanation": "This is a literal or non-native phrase. There are cases when a comma is correct before the if-clause, but in those cases the comma is separating something else."
+  },
+  {
+    "finglishItem": "incorrectly phrased questions",
+    "pattern": "bincorrectly\\s+phrased\\s+questions\\b",
+    "suggestion": "How is Neste MY SAF made?; How Neste MY SAF is made",
+    "category": "Incorrect Grammar",
+    "explanation": "This is a literal or non-native phrase. In the erroneous example, the company either wants to make a statement or ask a question, both of which it gets wrong."
+  },
+  {
+    "finglishItem": "or instead of and",
+    "pattern": "bor\\s+instead\\s+of\\s+and\\b",
+    "suggestion": "The programme is also taking place in several other countries such as Bolivia, Colombia, Tanzania, Uganda, and Zambia!",
+    "category": "Incorrect Grammar",
+    "explanation": "This is a literal or non-native phrase. This fix should be restricted to statements, not questions."
+  },
+  {
+    "finglishItem": "paint oneself in the corner",
+    "pattern": "bpaint\\s+oneself\\s+in\\s+the\\s+corner\\b",
+    "suggestion": "For us it was important not to paint ourselves into a corner when it comes to technologies and other choices; Finland's Jori Hulkkonen has never been the one to paint himself into a corner",
+    "category": "Incorrect Grammar",
+    "explanation": "This is a literal or non-native phrase. Search for all reflexive pronouns: myself, yourself, himself, etc., in the phrase \"paint (pronoun) in the corner\""
+  },
+  {
+    "finglishItem": "possessive pronoun + following",
+    "pattern": "bpossessive\\s+pronoun\\s+\\+\\s+following\\b",
+    "suggestion": "Gift cards are available at the following restaurants; Gift cards are available at these restaurants in our chain; Buy gift cards here; The following stops are; The next stops are",
+    "category": "Incorrect Grammar",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "provide without with",
+    "pattern": "bprovide\\s+without\\s+with\\b",
+    "suggestion": "This course supports and prepares students studying abroad by providing them with opportunities to practise; This course supports and prepares students studying abroad by giving them opportunities to practise",
+    "category": "Incorrect Grammar",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "run-on gerunds without commas",
+    "pattern": "brun\\-on\\s+gerunds\\s+without\\s+commas\\b",
+    "suggestion": "SAF is a proven solution which reduces GHG emissions by up to 80%; SAF is a proven solution, reducing GHG emissions by up to 80%; SAF is a proven solution for reducing GHG emissions by up to 80%",
+    "category": "Incorrect Grammar",
+    "explanation": "This is a literal or non-native phrase. Search for gerunds following nouns at the start of a sentence."
+  },
+  {
+    "finglishItem": "start from (gerund)",
+    "pattern": "bstart\\s+from\\s+\\(gerund\\)\\b",
+    "suggestion": "All journeys start with taking the first steps; All journeys start with the first steps",
+    "category": "Incorrect Grammar",
+    "explanation": "This is a literal or non-native phrase. The search can specifically focus on \"start from\" + a gerund and suggest replacing \"from\" with \"with\" or \"from (verb)\" with \"with\" if there's a noun after the verb. "
+  },
+  {
+    "finglishItem": "that instead of gerund",
+    "pattern": "bthat\\s+instead\\s+of\\s+gerund\\b",
+    "suggestion": "A broad scoped design phase was key in getting all the different needs into the project and in the new service catering as a basis for other countries’ and business areas’ ecommerce solutions",
+    "category": "Incorrect Grammar",
+    "explanation": "This is a literal or non-native phrase. Not essential to include right now. The pattern \"that the new service would cater\" is common. It's hard to pick out automatically which uses of \"that\" followed by an object, \"would\" and noun are incorrect and should be replaced by a gerund."
+  },
+  {
+    "finglishItem": "the nature",
+    "pattern": "bthe\\s+nature\\b",
+    "suggestion": "every Myrsky employee knows that the greatest power is in nature",
+    "category": "Incorrect Grammar",
+    "explanation": "This is a literal or non-native phrase. To save space, we can just search for \"in the nature\"."
+  },
+  {
+    "finglishItem": "the society",
+    "pattern": "bthe\\s+society\\b",
+    "suggestion": "Myrsky speaks honestly about processes taking place in society ",
+    "category": "Incorrect Grammar",
+    "explanation": "This is a literal or non-native phrase. Limit to \"in the society\""
+  },
+  {
+    "finglishItem": "\"they\" to mean company",
+    "pattern": "b\"they\"\\s+to\\s+mean\\s+company\\b",
+    "suggestion": "The company turned to Kodan when it wanted to renew their software development processes ",
+    "category": "Incorrect Grammar",
+    "explanation": "This is a literal or non-native phrase. Limit to sentences containing a capitalized company name"
+  },
+  {
+    "finglishItem": "year 2022",
+    "pattern": "byear\\s+2022\\b",
+    "suggestion": "FCG’s Annual Review for 2022 is now available; The biggest individual projects in 2022 were ",
+    "category": "Incorrect Grammar",
+    "explanation": "This is a literal or non-native phrase. Search for all cases of \"the year NNNN\" and \"year NNNN\" that are NOT at the start of a sentence."
+  },
+  {
+    "finglishItem": "comma instead of decimal point",
+    "pattern": "bcomma\\s+instead\\s+of\\s+decimal\\s+point\\b",
+    "suggestion": "18.5 GW",
+    "category": "Incorrect Punctuation",
+    "explanation": "This is a literal or non-native phrase. Search for commas used erroneously as decimal separators, not as thousands separators."
+  },
+  {
+    "finglishItem": "lack of comma before i.e.",
+    "pattern": "black\\s+of\\s+comma\\s+before\\s+i\\.e\\.\\b",
+    "suggestion": "The network business model is based on a broad network that is built around one or a few airports, i.e., around the hub",
+    "category": "Incorrect Punctuation",
+    "explanation": "This is a literal or non-native phrase. Search for \"i.e.\" not preceded by or followed by a comma and suggest commas on either side."
+  },
+  {
+    "finglishItem": "excessively long abstract nouns",
+    "pattern": "bexcessively\\s+long\\s+abstract\\s+nouns\\b",
+    "suggestion": "When the flood forecast and warning system is launched in practice, we made people aware of and familiar with it.",
+    "category": "Lengthiness",
+    "explanation": "This is a literal or non-native phrase. In addition to \"operationalization\", \"operationalisation\", \"familiarisation\" and \"familiarization\", search for all words of 15 letters or more ending in \"isation\" or \"ization\"."
+  },
+  {
+    "finglishItem": "free-of-charge",
+    "pattern": "bfree\\-of\\-charge\\b",
+    "suggestion": "Many free events in Helsinki on Independence Day",
+    "category": "Lengthiness",
+    "explanation": "This is a literal or non-native phrase. Search for both \"free of charge\" and \"free-of-charge\"."
+  },
+  {
+    "finglishItem": "utilize, utilise",
+    "pattern": "butilize,\\s+utilise\\b",
+    "suggestion": "Our mission is to keep our customers at the forefront of digital evolution by using our diverse expertise ",
+    "category": "Lengthiness",
+    "explanation": "This is a literal or non-native phrase. Search for \"utilise\", \"utilize\", and all forms of those verbs, as well as \"utilisation\" and \"utilization\"."
+  },
+  {
+    "finglishItem": "already",
+    "pattern": "balready\\b",
+    "suggestion": "As early as in the design phase we clearly recognized new needs; What Lamia brought to the table early in the process was the headless approach; trainings played an important role during the project",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Two distinct issues: if \"already\" is before a temporal phrase beginning with \"in\", suggest \"as early as\" instead\"; but if \"already\" precedes words like \"during\", suggest deletion."
+  },
+  {
+    "finglishItem": "as well as",
+    "pattern": "bas\\s+well\\s+as\\b",
+    "suggestion": "We offer funding, advice, information and contacts in the target market",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Simply highlight all cases of \"as well as\" and suggest \"'As well as' is often unnecessary. Only use 'as well as' when the last item in your list is very distinct from the first items in your list. Otherwise, just use 'and'.\""
+  },
+  {
+    "finglishItem": "case",
+    "pattern": "bcase\\b",
+    "suggestion": "Testimonial: Seure; Customer success story: R-kioski; What we did for Marimekko",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Search for all examples of \"Case\" followed by a capitalized word"
+  },
+  {
+    "finglishItem": "compliment",
+    "pattern": "bcompliment\\b",
+    "suggestion": "It’s customary to praise others’ team spirit and smooth cooperation",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Search for \"compliment\" in the same sentence as \"spirit\" or \"cooperation\" and suggest \"praise\" as a replacement."
+  },
+  {
+    "finglishItem": "cooperation",
+    "pattern": "bcooperation\\b",
+    "suggestion": "The measures of personnel satisfaction have gone in a better direction thanks to the service/consultation/Company Name",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Search specifically for \"the cooperation\" and suggest: \"Do you really mean cooperation, or do you mean a service your company provided to a client? If so, say that.\""
+  },
+  {
+    "finglishItem": "describes/continues/shares/clarifies, etc. -> says",
+    "pattern": "bdescribes/continues/shares/clarifies,\\s+etc\\.\\s+\\->\\s+says\\b",
+    "suggestion": "We have achieved a lot as a team - teamwork is at the heart of our success,” says Calvin; “The jury is not allowed to comment on anything during the competition, so the Shadow Jury can shed some light on issues that the jury might be pondering on”, says soprano Olga Heikkilä; \"We have, despite the pandemic, already built a solid foundation for it,” says Pekka Mattila",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Search for any verb other than \"say\", \"comment\", \"tell\", \"note\", \"begin\", \"conclude\", \"ask\" or \"answer\" after a quotation mark, or after a quotation mark and comma, and suggest replacing with \"says\"/\"said\"."
+  },
+  {
+    "finglishItem": "development work",
+    "pattern": "bdevelopment\\s+work\\b",
+    "suggestion": "Although the integration of these systems has not been fully completed at all levels, it does not prevent improvements being made.",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Search for all examples of \"development work\" and suggest: \"What do you really mean by this? Can you rewrite it in a way that the reader instantly understands?\""
+  },
+  {
+    "finglishItem": "due to",
+    "pattern": "bdue\\s+to\\b",
+    "suggestion": "Long winters mean Nordic people spend a lot of time at home; If your degree studies at a Ukrainian higher education institution in the arts have been suspended because of the war in Ukraine",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Search for \"due to\" and suggest: \"Only say 'due to' when you mean something happening as a result of an unexpected but ultimately manageable interruption, like a strike or a power cut. Don't say something changes 'due to the war in Ukraine'. Use 'because' instead. And don't use 'due to' in marketing texts or sales copy. Say something more creative.\""
+  },
+  {
+    "finglishItem": "enabling (pronoun) to",
+    "pattern": "benabling\\s+\\(pronoun\\)\\s+to\\b",
+    "suggestion": "the service benefits insurers by providing them with high-quality leads and allowing them to focus on delivering optimal solutions",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Suggest replacing \"enable (pronoun) to\" with \"allow (pronoun) to\""
+  },
+  {
+    "finglishItem": "entity",
+    "pattern": "bentity\\b",
+    "suggestion": "Each work environment is unique: its specific features should always be taken into account in safety training",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Suggest rewriting more clearly when the word \"entity\" appears."
+  },
+  {
+    "finglishItem": "even the (superlative)",
+    "pattern": "beven\\s+the\\s+\\(superlative\\)\\b",
+    "suggestion": "Insta implements the largest automation and digitalization projects with short lead times ",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "forerunner, frontrunner",
+    "pattern": "bforerunner,\\s+frontrunner\\b",
+    "suggestion": "Wärtsilä’s new flagship breaks new ground in responsible energy and marine industry; Metso is an industry leader in sustainable technologies",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Also suggest \"pioneer\""
+  },
+  {
+    "finglishItem": "gain appreciation",
+    "pattern": "bgain\\s+appreciation\\b",
+    "suggestion": "With professionally crafted and carefully personalized content, your business will attract more interest, gain clients’ appreciation, and pave the way to purchase decisions/\nWith professionally crafted and carefully personalized content, your business will attract more interest, become more respected in its field, and pave the way to purchase decisions",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Suggest: \"Unless by 'gain appreciation' you mean 'increase in value', either say whose appreciation you've gained ('gain clients' appreciation) or say 'become more respected'.\""
+  },
+  {
+    "finglishItem": "get to know",
+    "pattern": "bget\\s+to\\s+know\\b",
+    "suggestion": "Read more about our projects from last year in our annual review/Explore our projects from last year in more detail in our annual review; Check out our solutions/Read about our solutions",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Search for all forms of \"get to know\". Suggest: \"'Get to know' is used when people get to know each other. Don't use it in a headline when you want your readers to learn more, read more or explore something. Use another verb.\""
+  },
+  {
+    "finglishItem": "heed",
+    "pattern": "bheed\\b",
+    "suggestion": "Each project is unique, but we prefer working in 2-week sprints that apply the best practices of agile",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Search for \"heed\" in the same sentence as \"practices\" or \"models\" and suggest \"apply\" as a replacement."
+  },
+  {
+    "finglishItem": "necessary, needed",
+    "pattern": "bnecessary,\\s+needed\\b",
+    "suggestion": "Our customer can rent a water treatment system for the time needed/Our customer can rent a water treatment system for the necessary time",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Search for \"needed\" before a noun and suggest replacement either with \"(noun) needed\" or \"necessary (noun)\"."
+  },
+  {
+    "finglishItem": "online service",
+    "pattern": "bonline\\s+service\\b",
+    "suggestion": "Renewed online service rocketed visitor numbers to a huge rise",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Suggest replacement of \"online service\" with either \"site\" or \"website\"."
+  },
+  {
+    "finglishItem": "participate",
+    "pattern": "bparticipate\\b",
+    "suggestion": "Here are the ten biggest events we’ll be attending; We Value Your Feedback – Take Our Event Survey; Attend Hive Helsinki's Open Day",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Search for \"participate\" with \"event\", \"survey\", \"open day\", \"conference\". Suggest: \"In English, we 'attend', 'go to' and 'be at' events, rather than 'participating in' them. For surveys, don't say 'participate': say 'answer', 'respond to' or 'take'.\""
+  },
+  {
+    "finglishItem": "pay attention",
+    "pattern": "bpay\\s+attention\\b",
+    "suggestion": "We focus sharply on the accessibility and the responsiveness of the user interface to make sure that your digital service is usable anywhere",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Search for all forms of \"pay attention to\" and suggest: \"'Pay attention to' is boring Finglish. Consider saying 'focus on' or something else instead.\""
+  },
+  {
+    "finglishItem": "possibility to",
+    "pattern": "bpossibility\\s+to\\b",
+    "suggestion": "one of the main reasons why my aunt had the opportunity to do what she loved; I have also had the opportunity to see comprehensively the progress of the telecommunications development ",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Search for \"possibility to\" and suggest: \"When you say 'possibility', it sounds like the thing never happened. You could mean 'opportunity'.\""
+  },
+  {
+    "finglishItem": "reference",
+    "pattern": "breference\\b",
+    "suggestion": "projects/case studies/customer success stories/past clients",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Suggest: \"If you mean clients you've served or projects you've done in the past, don't say 'references', because we don't use the word that way in English.\""
+  },
+  {
+    "finglishItem": "renew",
+    "pattern": "brenew\\b",
+    "suggestion": "Experience our brand-new/overhauled/modernized long-haul cabins",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Suggest: \"In English, we 'renew' driving licences, wedding vows and insurance policies. When you make something like new, you 'modernize', 'overhaul' or 'update'.\""
+  },
+  {
+    "finglishItem": "spar",
+    "pattern": "bspar\\b",
+    "suggestion": "Sowellus was our sparring partner for user experience design; We bounced some ideas around with Sowellus about user experience design; We used Sowellus as a sounding board for user experience design.",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "(possessive pronoun) studies",
+    "pattern": "b\\(possessive\\s+pronoun\\)\\s+studies\\b",
+    "suggestion": "Software developer Aki Panuma’s career at Probot started with project periods while at university",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "take care of",
+    "pattern": "btake\\s+care\\s+of\\b",
+    "suggestion": "We also ensure the reliability of your information systems",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "tough (experts)",
+    "pattern": "btough\\s+\\(experts\\)\\b",
+    "suggestion": "We felt that the cybersecurity team, in particular, needed seasoned/experienced/skilled experts, as there was no room to compromise here",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "traffic ",
+    "pattern": "btraffic\\s+\\b",
+    "suggestion": "The system makes it possible to see in real time how the trams/vehicles/trains are running and whether the various partners are sticking to their service obligations",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Suggest: \"In English, 'traffic' isn't the cars, vehicles, trams or trains on a road or track – it's 'congestion'. What you might mean is 'transport' or 'vehicles'.\""
+  },
+  {
+    "finglishItem": "use money -> spend money",
+    "pattern": "buse\\s+money\\s+\\->\\s+spend\\s+money\\b",
+    "suggestion": "It makes no sense spending money on boring souvenirs when you can collect more interesting yourself",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Search for \"use money\" in all its forms."
+  },
+  {
+    "finglishItem": "verify",
+    "pattern": "bverify\\b",
+    "suggestion": "please see our agent at the airport Arrival Service desk so they can verify the damage and create a damage report",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Suggest: \"'Verify' means 'see for yourself that it is true'. If you mean 'prove something to someone else', say that, or use another verb.\""
+  },
+  {
+    "finglishItem": "a single whole",
+    "pattern": "ba\\s+single\\s+whole\\b",
+    "suggestion": "Contact our Customer Service at Messages and tell them that you want to consolidate all your household’s insurance policies into one policy",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "works",
+    "pattern": "bworks\\b",
+    "suggestion": "Our work; Projects; Customer success stories; Testimonials",
+    "category": "Misuse of real English words",
+    "explanation": "This is a literal or non-native phrase. Search for capitalized headlines \"Works\" and \"Our Works\" in those specific forms"
+  },
+  {
+    "finglishItem": "comma, and instead of two sentences",
+    "pattern": "bcomma,\\s+and\\s+instead\\s+of\\s+two\\s+sentences\\b",
+    "suggestion": "The importance of automation and data utilisation in business is growing. Intelligent business is the next level of digitalisation.",
+    "category": "Readability",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "implement",
+    "pattern": "bimplement\\b",
+    "suggestion": "Automation was done using rotary indexing table",
+    "category": "Readability",
+    "explanation": "This is a literal or non-native phrase. Suggest all forms of \"implement\" are replaced with \"do\", \"run\" or \"conduct\"."
+  },
+  {
+    "finglishItem": "in the form of",
+    "pattern": "bin\\s+the\\s+form\\s+of\\b",
+    "suggestion": "Check out the Kojamo Sustainability programme podcast",
+    "category": "Readability",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "lack of possessive",
+    "pattern": "black\\s+of\\s+possessive\\b",
+    "suggestion": "clear guidelines on the company’s future and its owners’ intentions",
+    "category": "Readability",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "passive when there is a subject",
+    "pattern": "bpassive\\s+when\\s+there\\s+is\\s+a\\s+subject\\b",
+    "suggestion": "Finnish diplomatic missions abroad issue visas.",
+    "category": "Readability",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "usable",
+    "pattern": "busable\\b",
+    "suggestion": "Basics of Open and Responsible Science is aimed at UEF and YUFE network graduate students, but everyone can use the course material",
+    "category": "Readability",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "among other things",
+    "pattern": "bamong\\s+other\\s+things\\b",
+    "suggestion": "As part of Turku University Hospital, Auria Biobank is a repository of over 1M+ tissue samples from patients",
+    "category": "Verbosity",
+    "explanation": "This is a literal or non-native phrase. Search for \"among other things\" and \"among other factors\" and suggest: \"Nobody cares whether the thing is one of many other things! It's probably completely irrelevant, so just leave it out.\""
+  },
+  {
+    "finglishItem": "be possible",
+    "pattern": "bbe\\s+possible\\b",
+    "suggestion": "Could/Can fares fall",
+    "category": "Verbosity",
+    "explanation": "This is a literal or non-native phrase. Suggest replacing all forms of \"be possible\" with \"can\" or \"could\"."
+  },
+  {
+    "finglishItem": "consequently",
+    "pattern": "bconsequently\\b",
+    "suggestion": "Myrsky’s task is to produce domestic renewable energy to strengthen local vitality, improve Finland’s self-sufficiency and support the green transition. That is why Työmaa started to refine an idea of a continuously renewing company with the environment as one of its most important partners.",
+    "category": "Verbosity",
+    "explanation": "This is a literal or non-native phrase. Suggest: \"'Consequently' is too long. Either say 'that is why' or say nothing at all. It's often obvious that something is a consequence of something else.\""
+  },
+  {
+    "finglishItem": "different",
+    "pattern": "bdifferent\\b",
+    "suggestion": "Learn more about sustainable palm oil options; This tool allowed us to unify and replace several separate tools and speed up the work stages of energy system and energy consumption calculations",
+    "category": "Verbosity",
+    "explanation": "This is a literal or non-native phrase. Search for \"different\" within a few words of \"options\" and \"stages\"."
+  },
+  {
+    "finglishItem": "diverse",
+    "pattern": "bdiverse\\b",
+    "suggestion": "We offer extensive opportunities for continuous improvement of your professional competence, in line with your own goals",
+    "category": "Verbosity",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "e.g. (the abbreviation in particular)",
+    "pattern": "be\\.g\\.\\s+\\(the\\s+abbreviation\\s+in\\s+particular\\)\\b",
+    "suggestion": "For example, we provide the following services for faculty and staff",
+    "category": "Verbosity",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "error situation",
+    "pattern": "berror\\s+situation\\b",
+    "suggestion": "The situation in the online store has been corrected",
+    "category": "Verbosity",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "excessively long sentences",
+    "pattern": "bexcessively\\s+long\\s+sentences\\b",
+    "suggestion": "We help our customers recycle more through planned origin sorting. We take collect waste at source using solutions that promote sorting. We transport the materials for further processing into recycled raw materials for industry.",
+    "category": "Verbosity",
+    "explanation": "This is a literal or non-native phrase. Search for all sentences longer than 25 words."
+  },
+  {
+    "finglishItem": "for example",
+    "pattern": "bfor\\s+example\\b",
+    "suggestion": "We support your career development. We offer learning programmes for juniors, have lots of internal trainings, and all our employees become certified business technology professionals.",
+    "category": "Verbosity",
+    "explanation": "This is a literal or non-native phrase. Suggest: \"Only say 'for example' if it's really an example. Don't use it before a full list of all the examples.\""
+  },
+  {
+    "finglishItem": "if needed",
+    "pattern": "bif\\s+needed\\b",
+    "suggestion": "We created a web app called Oma Puhti, where people can check their test results and contact a doctor.",
+    "category": "Verbosity",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "if you wish",
+    "pattern": "bif\\s+you\\s+wish\\b",
+    "suggestion": "Yes, it can. You can use the gift card to pay part of the total amount of your purchase.",
+    "category": "Verbosity",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "in addition to + also",
+    "pattern": "bin\\s+addition\\s+to\\s+\\+\\s+also\\b",
+    "suggestion": "In addition to placing orders via our online service, you can do so via the traditional channels",
+    "category": "Verbosity",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "in practice",
+    "pattern": "bin\\s+practice\\b",
+    "suggestion": "Seven Finnish municipalities are building a platform that will bring together information, systems and services for comprehensive and upper secondary school students, teachers, parents and administrators in the future. The platform makes life easier for and frees up time for teaching and student support.",
+    "category": "Verbosity",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "in such a way that",
+    "pattern": "bin\\s+such\\s+a\\s+way\\s+that\\b",
+    "suggestion": "Plan projects so they are sensible, profitable, and sustainable",
+    "category": "Verbosity",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "include, among other things",
+    "pattern": "binclude,\\s+among\\s+other\\s+things\\b",
+    "suggestion": "I work at Codento, a consulting company specializing in cloud technology, software development, and data/AI topics, and my job description includes finding the right talent for our clients.",
+    "category": "Verbosity",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "matters",
+    "pattern": "bmatters\\b",
+    "suggestion": "Fortum’s smart electricity contracts and additional services bring predictability and ease to your home’s electricity.; You can take care of your insurance and claims quickly and easily via phone.",
+    "category": "Verbosity",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "multi-word verb in gerund",
+    "pattern": "bmulti\\-word\\s+verb\\s+in\\s+gerund\\b",
+    "suggestion": "What made the case special was that all technology and other choices were made with Paulig’s broader ecommerce business in mind",
+    "category": "Verbosity",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "reduced number",
+    "pattern": "breduced\\s+number\\b",
+    "suggestion": "Fewer packing parts also means fewer storage places required",
+    "category": "Verbosity",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "simultaneously, at the same time",
+    "pattern": "bsimultaneously,\\s+at\\s+the\\s+same\\s+time\\b",
+    "suggestion": "Regardless of the channel, your company can produce a whole and targeted customer experience. More efficient customer information management enables additional sales.",
+    "category": "Verbosity",
+    "explanation": "This is a literal or non-native phrase. Search for \"simultaneously\" at the start of a sentence and suggest deletion."
+  },
+  {
+    "finglishItem": "survey work, investigation work",
+    "pattern": "bsurvey\\s+work,\\s+investigation\\s+work\\b",
+    "suggestion": "More information about the possible uses of AI in Finnish health care will soon be available when the survey/study/questionnaire done by the Ministry of Social Affairs and Health ",
+    "category": "Verbosity",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "together with",
+    "pattern": "btogether\\s+with\\b",
+    "suggestion": "With our partners, we are on a journey toward an emission-free energy system",
+    "category": "Verbosity",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "versatile",
+    "pattern": "bversatile\\b",
+    "suggestion": "We offer a wide range of services for private customers, such as daily banking, loans, savings and investments, as well as extensive owner-customer benefits",
+    "category": "Verbosity",
+    "explanation": "This is a literal or non-native phrase. "
+  },
+  {
+    "finglishItem": "with regard to",
+    "pattern": "bwith\\s+regard\\s+to\\b",
+    "suggestion": "Your personal data processing rights",
+    "category": "Verbosity",
+    "explanation": "This is a literal or non-native phrase. "
+  }
+]
