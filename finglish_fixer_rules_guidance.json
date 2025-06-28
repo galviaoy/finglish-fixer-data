@@ -1,5 +1,15 @@
 [
   {
+  "finglishItem": "Long sentence",
+  "pattern": "",
+  "replacement": "",
+  "sidebarSuggestion": "This sentence is very long. Consider splitting it into two.",
+  "customHandler": "checkLongSentence",
+  "category": "style",
+  "manualReview": false
+}
+
+  {
     "finglishItem": "attract feedback",
     "pattern": "\\b(attract feedback)\\b",
     "category": "Fake Idiom",
