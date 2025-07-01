@@ -14,13 +14,13 @@
   {
     "item": "heavy planning",
     "pattern": "\\bheavy((?:\\s+\\w+){0,2})\\s+planning\\b",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "Heavy' doesn't go naturally with 'planning' in English. What you probably mean is 'cumbersome planning', 'excessive planning' or 'burdensome planning'."
   },
   {
     "item": "long line, longest line",
     "pattern": "\\blong(?:est)?[-\\s]+line(?:\\s+\\w+){0,3}\\b",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "This is a direct translation of Finnish. We don't say 'long line' or 'longest line' in English. Instead, we say that someone has lots of experience or is experienced. 'He is the most experienced professional in his field.' 'She is an experienced coder.'"
   },
   {
@@ -38,7 +38,7 @@
   {
     "item": "on the other hand",
     "pattern": "\\bOn the other hand\\b",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "The program should search for paragraphs with \"on the other hand\" which are preceded by paragraphs which do NOT contain \"on the one hand\"."
   },
   {
@@ -86,7 +86,7 @@
   {
     "item": "working life",
     "pattern": "\\bworking life\\b",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "We don't say 'working life' in English. Consider 'working world', 'world of work', 'employment', 'professional' or something else instead."
   },
   {
@@ -110,7 +110,7 @@
   {
     "item": "especially without commas around it",
     "pattern": "(?<![,])\\s+especially\\s+(?![,])",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "It often sounds unnatural to use 'especially' in the middle of a sentence without commas before or after the word. Consider putting a comma before 'especially' or rewriting the sentence with 'particularly'. So, not 'Prices are rising especially in Europe' but 'Prices are rising, particularly in Europe' or 'Prices in Europe are rising faster than elsewhere'. Not 'The increase was visible especially in the North American market' but 'The change was particularly visible in the North American market'."
   },
   {
@@ -176,7 +176,7 @@
   {
     "item": "run-on gerunds without commas",
     "pattern": "\\bsolution\\s+(?!for|which|that|,)\\w+ing\\b",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "This phrase is grammatically compressed in a way that feels awkward in English. Try adding a comma (“solution, reducing…”), or rephrase as “a solution that reduces” or “a solution for reducing”."
   },
   {
@@ -188,7 +188,7 @@
   {
     "item": "that instead of gerund (faulty parallelism)",
     "pattern": "\\bin\\s+\\w+ing\\b.*?\\band that\\b",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "This sentence mixes structures. After “in getting...”, it’s more natural to continue with “in...” + gerund (e.g. “in the service catering”), not “and that...”. Rephrase to match the structure: “in X and in Y” or “in X and Y-ing”."
   },
   {
@@ -206,7 +206,7 @@
   {
     "item": "\"they\" to mean company",
     "pattern": "\\b[Tt]hey\\b(?=.*\\b(company|organisation|organization|business|firm|agency)\\b)",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "We say 'it' rather than 'they' to refer to a company in English."
   },
   {
@@ -230,7 +230,7 @@
   {
     "item": "excessively long abstract nouns over 15 characters and ending in -isation or -ization, such as operationalization, familiarization and more",
     "pattern": "\\b\\w{5,}(isation|ization)\\b",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "This abstract noun is too long. Make it more readable by saying what you actually did in plain language. So, not 'We increased familiarization with our strategy' but 'We presented our strategy' or 'We taught people about our strategy' or 'We made our strategy better-known to people'."
   },
   {
@@ -248,7 +248,7 @@
   {
     "item": "already, overused in prepositional phrases",
     "pattern": "\\balready\\s+(in|during|at|before|after)\\b",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "“Already” is often unnecessary or awkward in English when used before time phrases. Try rewriting as “as early as”, “even during”, or omit “already” altogether."
   },
   {
@@ -260,7 +260,7 @@
   {
     "item": "case",
     "pattern": "\\b[Cc]ase\\s+\\w+",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "English does not use 'case' like this, capitalized followed by a company name. Instead, consider 'Customer success story: Company Name'. Note the comma. Or rewrite the headline entirely: 'How we helped Company Name succeed'."
   },
   {
@@ -272,7 +272,7 @@
   {
     "item": "cooperation",
     "pattern": "\\bthe cooperation\\b",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "Do you really mean cooperation, or do you mean a service your company provided to a client? If so, say that."
   },
   {
@@ -320,7 +320,7 @@
   {
     "item": "gain appreciation",
     "pattern": "\\bgain appreciation\\b",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "Unless by 'gain appreciation' you mean 'increase in value', either say whose appreciation you've gained ('gain clients' appreciation) or say 'become more respected'."
   },
   {
@@ -404,7 +404,7 @@
   {
     "item": "traffic ",
     "pattern": "\\btraffic\\b(?:\\s+\\w+){0,2}?\\s+\\b(run|runs|ran|running)\\b",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "In English, 'traffic' isn't the cars, vehicles, trams or trains on a road or track – it's 'congestion'. What you might mean is 'transport' or 'vehicles'."
   },
   {
@@ -434,7 +434,7 @@
   {
     "item": "comma, and instead of two sentences",
     "pattern": ",\\s+and\\s+\\b[a-z]",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "Make your text easier to read. Split long sentences into two or more. A comma and 'and', like here, is probably a sign you need to split the sentence up."
   },
   {
@@ -458,7 +458,7 @@
   {
     "item": "passive when there is a subject",
     "pattern": "\\b([A-Z][^.!?]*?\\b(?:is|are|was|were|be|been|being)\\b\\s+\\w+(ed|en)\\b(?:\\s+by\\b[^.!?]*)?)\\.",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "If you know who does the action, say it. Not 'Visas are issued by Finnish embassies abroad' but 'Finnish embassies abroad issue visas'."
   },
   {
@@ -470,7 +470,7 @@
   {
     "item": "among other things",
     "pattern": "\\bamong other things\\b",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "Nobody cares whether the thing is one of many other things! It's probably completely irrelevant, so just leave it out."
   },
   {
@@ -518,13 +518,13 @@
   {
     "item": "for example",
     "pattern": "(?<=^|\\.\\s)\\bFor example,\\s",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "Only say 'for example' if it's really an example. Don't use it before a full list of all the examples."
   },
   {
     "item": "if needed",
     "pattern": "\\bif needed\\b,?",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "Do you want to sell to people or not? 'If needed, you can buy spare parts from us' sounds like you don't want to sell. 'You can buy spare parts from us' or 'Buy spare parts from us' sounds much better."
   },
   {
@@ -542,7 +542,7 @@
   {
     "item": "in practice",
     "pattern": "\\bin practice\\b,?",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "Do you really need 'in practice' or does your sentence make it obvious? Consider: 'In practice, the bridge connects the mainland to the island.' Of course it does! Why not just say 'The bridge connects the mainland to the island'?"
   },
   {
@@ -560,13 +560,13 @@
   {
     "item": "matters",
     "pattern": "\\bmatters\\b",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "You don't need to say 'matters'. You can just say what the 'matters' are. Not 'call us about your insurance matters' but 'call us about your insurance'."
   },
   {
     "item": "multi-word verb in gerund",
     "pattern": "\\b(was|were|is|are|had been|has been|have been|will be|would be|being|been|made|chosen|selected|designed)\\s+keeping in mind\\b",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "In English, “keeping in mind…” works best with active voice. For passive constructions, use “with X in mind” instead. For example: “…choices were made with Paulig’s ecommerce business in mind.”"
   },
   {
@@ -578,7 +578,7 @@
   {
     "item": "simultaneously, at the same time at the start of a sentence",
     "pattern": "\\bsimultaneously\\b|\\bat the same time\\b",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "It's often clear from context that the two things happened at the same time. Only use 'simultaneously' or 'at the same time' if you are sure the contrast is strong enough."
   },
   {
@@ -596,7 +596,7 @@
   {
     "item": "versatile",
     "pattern": "\\bsimultaneously\\b|\\bat the same time\\b",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "Versatile' usually means a person's physical versatility, their ability to bend and stretch. So if you are not talking about humans here, say 'extensive', 'a range of', or consider leaving it out altogether."
   },
   {
@@ -650,7 +650,19 @@
   {
     "item": "already early, redundant",
     "pattern": "\\balready\\s+early\\b",
-    "replacement": NaN,
+    "replacement": "",
     "suggestion": "“Already” is often unnecessary or awkward in English when used before time phrases. Try rewriting as “as early as”, “even during”, or omit “already” altogether."
+  },
+  {
+    "item": "excessively long sentences over 25 words",
+    "pattern": "NO REGEX",
+    "replacement": "",
+    "suggestion": "This sentence is really long, with over 25 words. Consider cutting it into two or more sentences."
+  },
+  {
+    "item": "sentence >25 words",
+    "pattern": "\\b(\\w+\\b\\s*){25,}",
+    "replacement": "",
+    "suggestion": "This sentence may be too long for clarity. Consider breaking it into two."
   }
 ]
