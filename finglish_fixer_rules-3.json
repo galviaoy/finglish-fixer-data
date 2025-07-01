@@ -1,0 +1,656 @@
+[
+  {
+    "item": "attract feedback",
+    "pattern": "\\battract(?:ed|s|ing)?((?:\\s+\\w+){0,3})\\s+feedback\\b",
+    "replacement": "receive\\1 feedback",
+    "suggestion": "Things don't 'attract feedback' in English. They 'receive feedback'. 'The new brand has received a lot of positive feedback.'"
+  },
+  {
+    "item": "gather attendees/people/participants",
+    "pattern": "\\bgather(?:ed|s|ing)?((?:\\s+\\w+){0,3})\\s+(attendees|people|participants)\\b",
+    "replacement": "attract\\1 \\2",
+    "suggestion": "Events don't 'gather people'. They 'attract people'. 'The event attracted 300 attendees.' 'The conference attracted 1,000 delegates.'"
+  },
+  {
+    "item": "heavy planning",
+    "pattern": "\\bheavy((?:\\s+\\w+){0,2})\\s+planning\\b",
+    "replacement": NaN,
+    "suggestion": "Heavy' doesn't go naturally with 'planning' in English. What you probably mean is 'cumbersome planning', 'excessive planning' or 'burdensome planning'."
+  },
+  {
+    "item": "long line, longest line",
+    "pattern": "\\blong(?:est)?[-\\s]+line(?:\\s+\\w+){0,3}\\b",
+    "replacement": NaN,
+    "suggestion": "This is a direct translation of Finnish. We don't say 'long line' or 'longest line' in English. Instead, we say that someone has lots of experience or is experienced. 'He is the most experienced professional in his field.' 'She is an experienced coder.'"
+  },
+  {
+    "item": "with a low threshold",
+    "pattern": "\\bwith a low threshold\\b",
+    "replacement": "at any time | open to everyone | with little risk | accessibly",
+    "suggestion": "This is a direct translation of Finnish. We don't say 'at a low threshold' in English. We say that services or facilities are 'open to everyone', 'accessible', 'available at any time' or something similar."
+  },
+  {
+    "item": "move around in",
+    "pattern": "\\bmove(?:s|d|ing)?\\s+around\\s+in\\b",
+    "replacement": "use | navigate | walk in | exercise in",
+    "suggestion": "We don't 'move around' in English the same way Finnish talks about 'moving around in'. Instead, we 'use premises', 'exercise' or 'spend time outdoors'."
+  },
+  {
+    "item": "on the other hand",
+    "pattern": "\\bOn the other hand\\b",
+    "replacement": NaN,
+    "suggestion": "The program should search for paragraphs with \"on the other hand\" which are preceded by paragraphs which do NOT contain \"on the one hand\"."
+  },
+  {
+    "item": "soonest possible",
+    "pattern": "\\bsoonest possible\\b",
+    "replacement": "as soon as possible",
+    "suggestion": "The idiom in English is 'as soon as possible', not 'soonest possible'."
+  },
+  {
+    "item": "strong reaction",
+    "pattern": "\\bstrong reaction\\b",
+    "replacement": "positive effect|negative response|strong impression",
+    "suggestion": "Strong reaction' in English means a negative reaction. Is this what you meant? If not, consider 'positive effect'."
+  },
+  {
+    "item": "take into use",
+    "pattern": "\\b(take[n]?|takes|took|taking)\\b(?:\\s+(?:\\w+|the|a|an|our|your|their|its|this|that|new|old|English|system|it|[\\w'-]+)){0,5}?\\s+into use\\b",
+    "replacement": "deploy|launch|introduce|roll out|use|start using",
+    "suggestion": "Take into use' is not real English but Finglish. We don't 'take things into use' in English: we launch, commission, deploy, roll out, start using or use."
+  },
+  {
+    "item": "tens of",
+    "pattern": "\\btens of\\b",
+    "replacement": "dozens of",
+    "suggestion": "In English, we talk about 'dozens' of things, not 'tens'."
+  },
+  {
+    "item": "that’s given",
+    "pattern": "/\\b[Tt]hat[’']s given\\b",
+    "replacement": "that’s a given",
+    "suggestion": "The phrase in English is 'that's a given'."
+  },
+  {
+    "item": "we at",
+    "pattern": "\\bwe at\\b",
+    "replacement": "Here at (company name), we",
+    "suggestion": "Instead of 'we at (company)', write 'at (company), we…' Or rewrite the sentence entirely to begin with 'our team', 'our company', etc."
+  },
+  {
+    "item": "work community",
+    "pattern": "\\bwork community\\b",
+    "replacement": "team|colleagues|workplace",
+    "suggestion": "We don't usually say 'work community' in English. It's not a phrase English-speakers are familiar with. Say 'workplace', 'team' or something else instead."
+  },
+  {
+    "item": "working life",
+    "pattern": "\\bworking life\\b",
+    "replacement": NaN,
+    "suggestion": "We don't say 'working life' in English. Consider 'working world', 'world of work', 'employment', 'professional' or something else instead."
+  },
+  {
+    "item": "in connection with",
+    "pattern": "\\bin connection with\\b",
+    "replacement": "at|during|in conjunction with",
+    "suggestion": "In English, 'in connection with' is usually used in news about crime. You probably mean 'at the same time or place as', so say that: 'at the event', 'during the event'. Alternatively, you can say 'in conjunction with'."
+  },
+  {
+    "item": "also before verbs other than be",
+    "pattern": "\\b(?!is\\b|are\\b|was\\b|were\\b|be\\b|been\\b|being\\b)\\w+\\s+also\\s+(the|a|an|my|your|our|their|this|that|[\\w]+)",
+    "replacement": "also \\1 \\2",
+    "suggestion": "When the verb is not 'be', but any other verb, place 'also' after the verb: 'The upgrade also covers the return flight.' "
+  },
+  {
+    "item": "definite article, common noun, proper noun order",
+    "pattern": "\\b(Learning Centre|Library|School|Faculty)\\s+([A-Z][a-z]+(?:\\s+[A-Z][a-z]+)*)\\b",
+    "replacement": "the \\2 \\1",
+    "suggestion": "The pattern in English is (Proper Noun) (Common Noun) in names like the Clinton Presidential Library, the Aurora Learning Centre and the Wellcome Trust. If you put them the other way round ('Learning Centre Aurora'), you will sound unnatural."
+  },
+  {
+    "item": "especially without commas around it",
+    "pattern": "(?<![,])\\s+especially\\s+(?![,])",
+    "replacement": NaN,
+    "suggestion": "It often sounds unnatural to use 'especially' in the middle of a sentence without commas before or after the word. Consider putting a comma before 'especially' or rewriting the sentence with 'particularly'. So, not 'Prices are rising especially in Europe' but 'Prices are rising, particularly in Europe' or 'Prices in Europe are rising faster than elsewhere'. Not 'The increase was visible especially in the North American market' but 'The change was particularly visible in the North American market'."
+  },
+  {
+    "item": "even up to (number)",
+    "pattern": "\\beven up to\\s+\\d+(?:\\.\\d+)?(?:%|\\b)",
+    "replacement": "by as much as $&",
+    "suggestion": "The phrase in English is 'by as much as', not 'even up to'."
+  },
+  {
+    "item": "experience/expertise from -> over, spanning",
+    "pattern": "\\b(?<=(?:experience|expertise)\\s+(?:\\w+\\s+)?)(from)\\b(?=\\s+(?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten|several|many|a few|some)\\s?(?:years?|decades?))",
+    "replacement": "over",
+    "suggestion": "In English, we don't have expertise 'from' a period of time but 'spanning' or 'over': 'My experience spans two decades', 'She has experience with polymers over the past decade'."
+  },
+  {
+    "item": "apply from -> to",
+    "pattern": "\\b(apply(?:ing|ied|ies|s)?)\\b((?:\\W+\\w+){0,5}?)\\sfrom\\s(?!abroad|overseas|another country|outside\\b)",
+    "replacement": "$1$2 to",
+    "suggestion": "In English, you apply TO a bank, government department or organization for things like loans and social welfare benefits: 'We applied to the bank for a loan.'"
+  },
+  {
+    "item": "go through",
+    "pattern": "\\b(go(?:es|ing|ne|t)?|went)\\s+through\\b",
+    "replacement": "$1 over",
+    "suggestion": "In English, we 'go through' physical things, like a park: 'I went through the park for a shortcut'. When you review something, you 'go over' it: 'We went over the contract once more'."
+  },
+  {
+    "item": "incorrect comma before “if”",
+    "pattern": ",\\s*if\\b",
+    "replacement": " if",
+    "suggestion": "This comma may be incorrect. The rule in English is that the clause with 'if' ends with a comma. The other clause does not. Example: 'If you tried it, you'd love it'. But: 'You'd love it if you tried it'."
+  },
+  {
+    "item": "incorrectly phrased modals, be",
+    "pattern": "\\b(How|What|Why|When|Where|Who|Which)\\s+(is|are|was|were)\\b.*?(?=\\n|\\r|$)",
+    "replacement": "[\\. ]*$ → ?",
+    "suggestion": "This has the word order of a question, but there is no question mark at the end. Consider rewriting it or putting a question mark at the end. Not 'How is the sausage made' but 'How is the sausage made?' or 'How the sausage is made'."
+  },
+  {
+    "item": "or instead of and",
+    "pattern": "(\\b(?:\\w+, ){1,}\\w+)\\s+or\\s+(\\w+\\b)",
+    "replacement": "$1 and $2",
+    "suggestion": "Consider changing 'or' to 'and'. When you make a list in a regular, positive statement (not in a question), join the last two items with 'and', not 'or'. 'Or' is OK if you say something like 'you can choose eggs, ham or cheese'. However, we say 'eggs, ham and cheese are available'."
+  },
+  {
+    "item": "paint oneself in the corner",
+    "pattern": "\\b(paint(?:s|ed|ing)?) (myself|yourself|himself|herself|oneself|ourselves|themselves) in the corner\\b",
+    "replacement": "\\1 \\2 into a corner",
+    "suggestion": "The idiom in English is always in the form 'paint (reflexive pronoun) in a corner'. So: 'I painted myself in a corner.' 'Don't paint yourself in a corner!' 'She's painting herself in a corner.' A corner, not the corner, and 'into', not 'to'."
+  },
+  {
+    "item": "possessive pronoun + following",
+    "pattern": "\\b(my|your|his|her|its|our|their)\\s+following\\b",
+    "replacement": "the following",
+    "suggestion": "Following' is a determiner, not an adjective. That means you cannot use it with possessive pronouns like 'my' and 'our'. Instead of 'our following locations', say 'the following locations of ours'."
+  },
+  {
+    "item": "provide without with",
+    "pattern": "\\b(provid(?:e|es|ed|ing))\\b\\s+(\\w+)\\s+(?!with\\b)(\\w+)",
+    "replacement": "$1 $2 with $3",
+    "suggestion": "Say either 'provide (somebody) with (something)' or 'give (somebody) (something)'. Don't say 'provide (somebody) (something)'."
+  },
+  {
+    "item": "run-on gerunds without commas",
+    "pattern": "\\bsolution\\s+(?!for|which|that|,)\\w+ing\\b",
+    "replacement": NaN,
+    "suggestion": "This phrase is grammatically compressed in a way that feels awkward in English. Try adding a comma (“solution, reducing…”), or rephrase as “a solution that reduces” or “a solution for reducing”."
+  },
+  {
+    "item": "start from (gerund)",
+    "pattern": "\\bstart(?:s|ed|ing)?\\s+from\\s+(taking|doing|making|going|being|\\w+ing)\\b",
+    "replacement": "$1 with $2|$1 by $2",
+    "suggestion": "We say 'start from (a place)' but 'start with (an action)'. For example: 'I started from home' and 'she started by unpacking all the ingredients'."
+  },
+  {
+    "item": "that instead of gerund (faulty parallelism)",
+    "pattern": "\\bin\\s+\\w+ing\\b.*?\\band that\\b",
+    "replacement": NaN,
+    "suggestion": "This sentence mixes structures. After “in getting...”, it’s more natural to continue with “in...” + gerund (e.g. “in the service catering”), not “and that...”. Rephrase to match the structure: “in X and in Y” or “in X and Y-ing”."
+  },
+  {
+    "item": "in the nature",
+    "pattern": "\\bin the nature\\b",
+    "replacement": "in nature",
+    "suggestion": "When we say 'nature' to mean 'the natural world', we don’t use an article: 'Humans need to engage with nature'. When we say 'nature' to mean 'character', we use the article 'the': 'The nature of economics is complicated'."
+  },
+  {
+    "item": "in the society",
+    "pattern": "\\bin the society\\b",
+    "replacement": "in society",
+    "suggestion": "When we mean 'human society in general', we don't say use an article: 'Changes in society over the years'. When we mean a particular society, we can use an article, but this is rare: 'The society I grew up in was very conservative'."
+  },
+  {
+    "item": "\"they\" to mean company",
+    "pattern": "\\b[Tt]hey\\b(?=.*\\b(company|organisation|organization|business|firm|agency)\\b)",
+    "replacement": NaN,
+    "suggestion": "We say 'it' rather than 'they' to refer to a company in English."
+  },
+  {
+    "item": "year 2022",
+    "pattern": "(?<![.?!]\\s)(?:the\\s+)?year\\s+(20\\d{2})\\b",
+    "replacement": "$1",
+    "suggestion": "Only say 'the year NNNN' when it's at the start of a sentence to avoid starting the sentence with a numeral. In the middle or end of a sentence, you don't need to say 'the year'. You can just write the number."
+  },
+  {
+    "item": "comma instead of decimal point",
+    "pattern": "\\b(\\d+),(\\d{1,2})\\b",
+    "replacement": "$1.$2",
+    "suggestion": "Use decimal points to separate integers and decimals, not commas: 2.2, not 2,2. This also applies to all currencies: €25.23, not €25,23."
+  },
+  {
+    "item": "lack of comma before and after i.e.",
+    "pattern": "(?<!,\\s)i\\.e\\.(?!\\s*,)",
+    "replacement": ", i.e., ",
+    "suggestion": "Because i.e. means 'id est' or 'that is', you need to separate it from the rest of the sentence with a comma on either side."
+  },
+  {
+    "item": "excessively long abstract nouns over 15 characters and ending in -isation or -ization, such as operationalization, familiarization and more",
+    "pattern": "\\b\\w{5,}(isation|ization)\\b",
+    "replacement": NaN,
+    "suggestion": "This abstract noun is too long. Make it more readable by saying what you actually did in plain language. So, not 'We increased familiarization with our strategy' but 'We presented our strategy' or 'We taught people about our strategy' or 'We made our strategy better-known to people'."
+  },
+  {
+    "item": "free-of-charge",
+    "pattern": "\\bfree[- ]of[- ]charge\\b",
+    "replacement": "free",
+    "suggestion": "You don't need to say 'free of charge': you can just say 'free'!"
+  },
+  {
+    "item": "utilize, utilise",
+    "pattern": "\\butili[sz](e|es|ed|ing|ation)\\b",
+    "replacement": "use",
+    "suggestion": "Utilize' and 'utilization' are redundant and too long. Just say 'use'. 'The use of the system.' 'We used the system.'"
+  },
+  {
+    "item": "already, overused in prepositional phrases",
+    "pattern": "\\balready\\s+(in|during|at|before|after)\\b",
+    "replacement": NaN,
+    "suggestion": "“Already” is often unnecessary or awkward in English when used before time phrases. Try rewriting as “as early as”, “even during”, or omit “already” altogether."
+  },
+  {
+    "item": "as well as",
+    "pattern": "\\bas well as\\b",
+    "replacement": "and",
+    "suggestion": "As well as' is often unnecessary. Only use 'as well as' when the last item in your list is very distinct from the first items in your list. Otherwise, just use 'and'."
+  },
+  {
+    "item": "case",
+    "pattern": "\\b[Cc]ase\\s+\\w+",
+    "replacement": NaN,
+    "suggestion": "English does not use 'case' like this, capitalized followed by a company name. Instead, consider 'Customer success story: Company Name'. Note the comma. Or rewrite the headline entirely: 'How we helped Company Name succeed'."
+  },
+  {
+    "item": "compliment spirit/cooperation",
+    "pattern": "\\b(compliment)(s|ed|ing)?\\s+(?:the\\s+)?(?:\\w+\\s+){0,2}?(spirit|cooperation)\\b",
+    "replacement": "praise$2 the $3$4",
+    "suggestion": "We don't 'compliment' spirit or cooperation in English. Instead, we 'praise' it."
+  },
+  {
+    "item": "cooperation",
+    "pattern": "\\bthe cooperation\\b",
+    "replacement": NaN,
+    "suggestion": "Do you really mean cooperation, or do you mean a service your company provided to a client? If so, say that."
+  },
+  {
+    "item": "describes/continues/shares/clarifies, etc. -> says",
+    "pattern": "(?<=[\"'”][,]?\\s)(?!(says|tells|comments|notes|begins|concludes|asks|answers)\\b)([a-z]{3,20})\\b",
+    "replacement": "says|comments|notes|begins|concludes|asks|answers",
+    "suggestion": "When you quote someone in English, these verbs are OK. Any other verbs sound strange: \"say\", \"comment\", \"tell\", \"note\", \"begin\", \"conclude\", \"ask\" or \"answer\"."
+  },
+  {
+    "item": "development work",
+    "pattern": "\\bdevelopment work\\b",
+    "replacement": "project|development",
+    "suggestion": "What do you really mean by 'development work'? Can you rewrite it in a way that the reader instantly understands?"
+  },
+  {
+    "item": "due to",
+    "pattern": "\\bdue to\\b",
+    "replacement": "because of",
+    "suggestion": "Only say 'due to' when you mean something happening as a result of an unexpected but ultimately manageable interruption, like a strike or a power cut. Don't say something changes 'due to the war in Ukraine'. Use 'because' instead. And don't use 'due to' in marketing texts or sales copy. Say something more creative."
+  },
+  {
+    "item": "enabling (pronoun) to",
+    "pattern": "\\benabl(?:e|es|ed|ing)\\b(?:\\s+[\\w’-]+){0,4}?\\s+to\\b",
+    "replacement": "allow$1 to",
+    "suggestion": "Enable' means 'make possible', but what you might mean is 'allow', which means 'remove a barrier'."
+  },
+  {
+    "item": "an individual entity",
+    "pattern": "\\ban individual entity\\b",
+    "replacement": "unique",
+    "suggestion": "We don't talk about 'entities' that often in English. Find a more natural way to say it, such as by saying the thing is unique or one of a kind."
+  },
+  {
+    "item": "even the (superlative)",
+    "pattern": "\\beven the (\\w+est)\\b",
+    "replacement": "the \\1",
+    "suggestion": "Using 'even the' with a superlative (like 'biggest') sounds unnatural in English. You can just say the superlative. So not 'We paint even the largest office buildings' but 'We paint the largest office buildings' or 'We specialize in painting large office buildings of over 100,000 square metres'."
+  },
+  {
+    "item": "forerunner",
+    "pattern": "\\bforerunner\\b",
+    "replacement": "pioneer|industry leader",
+    "suggestion": "In English, a 'forerunner' is an early example or version of something. You probably mean a 'pioneer' or 'industry leader'."
+  },
+  {
+    "item": "gain appreciation",
+    "pattern": "\\bgain appreciation\\b",
+    "replacement": NaN,
+    "suggestion": "Unless by 'gain appreciation' you mean 'increase in value', either say whose appreciation you've gained ('gain clients' appreciation) or say 'become more respected'."
+  },
+  {
+    "item": "get to know",
+    "pattern": "\\b[Gg]et to know\\b",
+    "replacement": "Read more about|Explore|Check out",
+    "suggestion": "Get to know' is used when people get to know each other. Don't use it in a headline when you want your readers to learn more, read more or explore something. Use another verb."
+  },
+  {
+    "item": "heed",
+    "pattern": "\\bheed\\b(?:\\s+\\w+){0,2}\\s+(practices|models)\\b",
+    "replacement": "apply",
+    "suggestion": "We don't 'heed' practices or models in English, we 'apply' them: 'Our company applies best practices'."
+  },
+  {
+    "item": "necessary, needed time",
+    "pattern": "\\bneeded time\\b",
+    "replacement": "time needed|necessary time",
+    "suggestion": "The pattern in English is '(noun) needed' or 'necessary (noun)': 'You can rent the machine for the time needed' or 'You can rent the machine for the necessary time'."
+  },
+  {
+    "item": "online service",
+    "pattern": "\\bonline service\\b",
+    "replacement": "site|website",
+    "suggestion": "We don't say 'online service' to mean a website in English. In English, 'online service' means the entire service a customer gets online, not a specific resource. Just say 'site' or 'website'."
+  },
+  {
+    "item": "participate in an open day",
+    "pattern": "\\bparticipat(?:e|ed|es|ing)?(?:\\s+in)?(?:\\s+\\w+){0,5}?\\s+(open day|open days)\\b",
+    "replacement": "go to $1|went to $1|attended $1",
+    "suggestion": "Don't say \"participate\" with \"event\", \"survey\", \"open day\", or \"conference\". In English, we 'attend', 'go to' and 'be at' events, rather than 'participating in' them. For surveys, don't say 'participate': say 'answer', 'respond to' or 'take'."
+  },
+  {
+    "item": "pay attention",
+    "pattern": "\\bBy paying attention to\\b",
+    "replacement": "We focus on|We emphasize|We prioritize",
+    "suggestion": "Pay attention to' is boring Finglish. Consider saying 'focus on' or something else instead."
+  },
+  {
+    "item": "possibility to",
+    "pattern": "\\bpossibility to\\b",
+    "replacement": "opportunity to",
+    "suggestion": "When you say 'possibility', it sounds like the thing never happened. You probably mean 'opportunity': 'I had the opportunity to do study abroad' ('I studied abroad'). By contrast, if you say 'I had the possibility to study abroad', it doesn't necessarily mean you studied abroad."
+  },
+  {
+    "item": "reference",
+    "pattern": "\\bReference[s]?\\b",
+    "replacement": "Projects|Case studies|Customer success stories|Past clients|Testimonials",
+    "suggestion": "If you mean clients you've served or projects you've done in the past, don't say 'references', because we don't use the word that way in English."
+  },
+  {
+    "item": "renew",
+    "pattern": "\\brenew(?:ed|ing|s)?\\b(?! (a license|subscription|passport))",
+    "replacement": "update|overhaul|modernize",
+    "suggestion": "In English, we 'renew' driving licences, wedding vows and insurance policies. When you make something 'like new', you 'modernize', 'overhaul' or 'update' it."
+  },
+  {
+    "item": "spar",
+    "pattern": "\\b(spar|spars|sparred|sparring)\\b",
+    "replacement": "exchange ideas with",
+    "suggestion": "When you 'spar' with someone in English, you have a fight with them. What you probably mean is 'use as a sparring partner', 'bounce ideas around with' or 'use as a sounding board'."
+  },
+  {
+    "item": "(possessive pronoun) studies",
+    "pattern": "\\b(my|our|his|her|their) studies\\b",
+    "replacement": "\\1 time at university|\\1 time at college|\\1 degree",
+    "suggestion": "This is not incorrect English: it just sounds a little unnatural. We don't say 'during my studies'; we say 'while I was at college/university' or 'during my degree'."
+  },
+  {
+    "item": "take care of",
+    "pattern": "\\btake care of\\b",
+    "replacement": "ensure",
+    "suggestion": "In English, we 'take care of' a sick person, a plant or an animal. When you want someone to be well, you say 'take care'. If you are a business offering a service, you don't 'take care of your customer's security', you 'provide security' or 'ensure security'. "
+  },
+  {
+    "item": "tough expert",
+    "pattern": "\\btough expert\\b",
+    "replacement": "seasoned|experienced expert",
+    "suggestion": "We don't use 'tough' with 'expert' in English. Say 'experienced', 'formidable', 'skilled' or something else instead."
+  },
+  {
+    "item": "traffic ",
+    "pattern": "\\btraffic\\b(?:\\s+\\w+){0,2}?\\s+\\b(run|runs|ran|running)\\b",
+    "replacement": NaN,
+    "suggestion": "In English, 'traffic' isn't the cars, vehicles, trams or trains on a road or track – it's 'congestion'. What you might mean is 'transport' or 'vehicles'."
+  },
+  {
+    "item": "use money",
+    "pattern": "\\b(us(?:e|es|ed|ing))((?:\\s+\\w+){0,5}?)\\s+money\\s+for\\b",
+    "replacement": "spend money on|spent money on|spends money on|spending money on",
+    "suggestion": "In English, we don't \"use money for\" things, we 'spend money on' things."
+  },
+  {
+    "item": "verify",
+    "pattern": "(?:please|kindly)?\\s*(show|see|bring|present|submit)\\b[^\\.]{0,80}?\\b(to|in order to|and) verify\\b",
+    "replacement": "so they can verify|so it can be verified",
+    "suggestion": "Verify' means 'see for yourself that it is true'. If you mean 'prove something to someone else', say that, or use another verb."
+  },
+  {
+    "item": "a single whole",
+    "pattern": "\\ba single whole\\b",
+    "replacement": "one",
+    "suggestion": "We don't use the word 'whole' as a noun that often in English. Just repeat the noun that you're referring to. For example, if you're talking about insurance, say 'we can combine all of your insurance policies into one policy' (NOT 'into a single whole')."
+  },
+  {
+    "item": "works",
+    "pattern": "\\b(?:Our works|Works)\\b",
+    "replacement": "Our work|Projects|Customer success stories|Testimonials",
+    "suggestion": "Works' in English, as a noun, means a large factory (or miracles performed by Jesus and the saints). When you say 'Works' our 'Our works' as a headline, not everyone will understand you. Consider instead: 'What we do', 'Services', 'Our strengths', 'Past projects' or something similar."
+  },
+  {
+    "item": "comma, and instead of two sentences",
+    "pattern": ",\\s+and\\s+\\b[a-z]",
+    "replacement": NaN,
+    "suggestion": "Make your text easier to read. Split long sentences into two or more. A comma and 'and', like here, is probably a sign you need to split the sentence up."
+  },
+  {
+    "item": "implement",
+    "pattern": "\\bimplement(?:ed|ing|s)?\\b",
+    "replacement": "do|perform | carry out | run",
+    "suggestion": "Implement' is too long. Use a verb like 'do', 'run' or 'conduct' instead. It will make your text easier to read."
+  },
+  {
+    "item": "in the form of a",
+    "pattern": "\\bin the form of a\\b",
+    "replacement": "as",
+    "suggestion": "Do you really need 'in the form of'? Can you delete it? For example: NOT 'we published our ideas in the form of a book' but instead 'we published our ideas in a book' or 'as a book'."
+  },
+  {
+    "item": "of instead of possessive",
+    "pattern": "\\bthe\\s+([\\w\\s]{1,30}?)\\s+of\\s+the\\s+([a-z]+s)\\b",
+    "replacement": "$2's $1",
+    "suggestion": "If you are talking about people or groups of people (such as companies), use apostrophe + S rather than 'of'. So instead of 'the intention of the owners', say 'the owners' intentions'. Instead of 'the management of the company', say 'the company's management' (or 'the company management')."
+  },
+  {
+    "item": "passive when there is a subject",
+    "pattern": "\\b([A-Z][^.!?]*?\\b(?:is|are|was|were|be|been|being)\\b\\s+\\w+(ed|en)\\b(?:\\s+by\\b[^.!?]*)?)\\.",
+    "replacement": NaN,
+    "suggestion": "If you know who does the action, say it. Not 'Visas are issued by Finnish embassies abroad' but 'Finnish embassies abroad issue visas'."
+  },
+  {
+    "item": "usable to",
+    "pattern": "\\busable to\\b",
+    "replacement": "available to",
+    "suggestion": "This is technically correct, but may sound unnatural. Instead of saying 'the material is usable to everyone', say 'everyone can use the material' or 'the material is available to everyone'."
+  },
+  {
+    "item": "among other things",
+    "pattern": "\\bamong other things\\b",
+    "replacement": NaN,
+    "suggestion": "Nobody cares whether the thing is one of many other things! It's probably completely irrelevant, so just leave it out."
+  },
+  {
+    "item": "be possible",
+    "pattern": "\\bis it possible that\\b",
+    "replacement": "can|could",
+    "suggestion": "We have a modal in English, 'can'/'could'. We don't need to say 'Is it possible that things could change?' We can just say 'Can things change?' or 'Could things change?' Keep it simple and readable!"
+  },
+  {
+    "item": "consequently",
+    "pattern": "\\bconsequently\\b",
+    "replacement": "that is why",
+    "suggestion": "Consequently' is too long. Either say 'that is why' or say nothing at all. It's often obvious that something is a consequence of something else."
+  },
+  {
+    "item": "different",
+    "pattern": "\\b(different(?:\\s+\\w+){0,3}?)\\s+(palm oil options|work stages|options|stages)\\b",
+    "replacement": "\\2",
+    "suggestion": "You don't need to say 'different stages' or 'different options'. It's often clear from context that they are distinct, different stages or options. So, not 'Explore the different treatment options' but 'Explore the treatment options'. Not 'Track the different stages of assembly' but 'Track the stages of assembly'."
+  },
+  {
+    "item": "diverse",
+    "pattern": "\\bdiverse\\b",
+    "replacement": "extensive",
+    "suggestion": "Diverse' is used for people, not things. So if you are not talking about humans here, say 'extensive', 'a range of', or consider leaving it out altogether."
+  },
+  {
+    "item": "e.g. (the abbreviation in particular)",
+    "pattern": "(?<!^|\\.\\s*)\\be\\.g\\.\\b",
+    "replacement": "for example",
+    "suggestion": "We don't use the abbreviation e.g. like this in the middle of a sentence in English. E.g. is for legal contracts and other technical documentation, not text you intend people to read willingly. Say 'for example' instead. Or don't say it: it might be clear that what you're saying is an example, so even 'for example' might be unnecessary."
+  },
+  {
+    "item": "error situation",
+    "pattern": "\\berror situation\\b",
+    "replacement": "error",
+    "suggestion": "You don't need to say 'error situation'. You can just say 'error'. Your reader will know it was a situation."
+  },
+  {
+    "item": "described/continued/shared/clarified, etc. -> says",
+    "pattern": "(?<=[\"'”][,]?\\s)(?!(said|told|commented|noted|began|concluded|asked|answered)\\b)([a-z]{3,20}ed)\\b",
+    "replacement": "said|commented|noted|began|concluded|asked|answered",
+    "suggestion": "When you quote someone in English, these verbs are OK. Any other verbs sound strange: \"say\", \"comment\", \"tell\", \"note\", \"begin\", \"conclude\", \"ask\" or \"answer\"."
+  },
+  {
+    "item": "for example",
+    "pattern": "(?<=^|\\.\\s)\\bFor example,\\s",
+    "replacement": NaN,
+    "suggestion": "Only say 'for example' if it's really an example. Don't use it before a full list of all the examples."
+  },
+  {
+    "item": "if needed",
+    "pattern": "\\bif needed\\b,?",
+    "replacement": NaN,
+    "suggestion": "Do you want to sell to people or not? 'If needed, you can buy spare parts from us' sounds like you don't want to sell. 'You can buy spare parts from us' or 'Buy spare parts from us' sounds much better."
+  },
+  {
+    "item": "if you wish",
+    "pattern": "\\bif you wish\\b,?",
+    "replacement": "you can",
+    "suggestion": "If you say can, why would you say 'if you wish'? It sounds like you don't want the person to do it. Not 'if you wish, you can use the gift card in our store' but 'you can use the gift card in our store'."
+  },
+  {
+    "item": "in addition to + also",
+    "pattern": "\\bin addition to\\b.*\\balso\\b",
+    "replacement": "Delete \"in addition to\" | Delete \"also\"",
+    "suggestion": "In addition to' and 'also' mean the same thing. You don't need both. Only say one or the other."
+  },
+  {
+    "item": "in practice",
+    "pattern": "\\bin practice\\b,?",
+    "replacement": NaN,
+    "suggestion": "Do you really need 'in practice' or does your sentence make it obvious? Consider: 'In practice, the bridge connects the mainland to the island.' Of course it does! Why not just say 'The bridge connects the mainland to the island'?"
+  },
+  {
+    "item": "in such a way that",
+    "pattern": "\\bin such a way that\\b",
+    "replacement": "so that",
+    "suggestion": "In such a way that' is five words where one will do: 'so'. Or, you can rewrite the sentence: 'Plan projects in such a way that they succeed' – 'Plan projects to succeed'."
+  },
+  {
+    "item": "includes, among other things",
+    "pattern": "\\bincludes,? among other things\\b",
+    "replacement": "includes",
+    "suggestion": "Includes' means 'this list is non-exhaustive'. You don't need to say 'includes, among other things'. If it's a legal contract, you can perhaps write 'including, but not limited to'. But only in a legal contract."
+  },
+  {
+    "item": "matters",
+    "pattern": "\\bmatters\\b",
+    "replacement": NaN,
+    "suggestion": "You don't need to say 'matters'. You can just say what the 'matters' are. Not 'call us about your insurance matters' but 'call us about your insurance'."
+  },
+  {
+    "item": "multi-word verb in gerund",
+    "pattern": "\\b(was|were|is|are|had been|has been|have been|will be|would be|being|been|made|chosen|selected|designed)\\s+keeping in mind\\b",
+    "replacement": NaN,
+    "suggestion": "In English, “keeping in mind…” works best with active voice. For passive constructions, use “with X in mind” instead. For example: “…choices were made with Paulig’s ecommerce business in mind.”"
+  },
+  {
+    "item": "reduced number",
+    "pattern": "\\breduced number\\b",
+    "replacement": "fewer",
+    "suggestion": "We have a word in English, 'fewer'. We don't need to say 'reduced number'."
+  },
+  {
+    "item": "simultaneously, at the same time at the start of a sentence",
+    "pattern": "\\bsimultaneously\\b|\\bat the same time\\b",
+    "replacement": NaN,
+    "suggestion": "It's often clear from context that the two things happened at the same time. Only use 'simultaneously' or 'at the same time' if you are sure the contrast is strong enough."
+  },
+  {
+    "item": "survey work, investigation work",
+    "pattern": "\\bsurvey work\\b|\\binvestigation work\\b",
+    "replacement": "survey | investigation",
+    "suggestion": "You don't need to call every type of work 'work'. Just say 'survey', 'questionnaire' or 'investigation'."
+  },
+  {
+    "item": "together with",
+    "pattern": "\\btogether with\\b",
+    "replacement": "with",
+    "suggestion": "With' works by itself. You don't need to say 'together with'. It's too many words."
+  },
+  {
+    "item": "versatile",
+    "pattern": "\\bsimultaneously\\b|\\bat the same time\\b",
+    "replacement": NaN,
+    "suggestion": "Versatile' usually means a person's physical versatility, their ability to bend and stretch. So if you are not talking about humans here, say 'extensive', 'a range of', or consider leaving it out altogether."
+  },
+  {
+    "item": "with regard to",
+    "pattern": "\\bwith regard to\\b",
+    "replacement": "regarding | about",
+    "suggestion": "With regard to' is too many words. Instead of 'your rights with regard to personal data processing', say 'your personal data processing rights'."
+  },
+  {
+    "item": "frontrunner",
+    "pattern": "\\bfrontrunner\\b",
+    "replacement": "pioneer|industry leader",
+    "suggestion": "In English, a 'frontrunner' is someone who runs ahead. You probably mean a 'pioneer' or 'industry leader'."
+  },
+  {
+    "item": "participate in a survey",
+    "pattern": "\\bparticipate(?:s|d|ing)?(?:\\s+\\w+){0,5}?\\s+surveys?\\b",
+    "replacement": "respond to the survey|answer the survey",
+    "suggestion": "Don't say \"participate\" with \"event\", \"survey\", \"open day\", or \"conference\". In English, we 'attend', 'go to' and 'be at' events, rather than 'participating in' them. For surveys, don't say 'participate': say 'answer', 'respond to' or 'take'."
+  },
+  {
+    "item": "participate in an event/conference",
+    "pattern": "\\bparticipate(?:s|d|ing)?(?:\\s+in)?(?:\\s+\\w+){0,5}?\\s+(event|conference|seminar|session|webinar|workshop|meeting)s?\\b",
+    "replacement": "attend the $1",
+    "suggestion": "Don't say \"participate\" with \"event\", \"survey\", \"open day\", or \"conference\". In English, we 'attend', 'go to' and 'be at' events, rather than 'participating in' them. For surveys, don't say 'participate': say 'answer', 'respond to' or 'take'."
+  },
+  {
+    "item": "also after be",
+    "pattern": "\\balso\\s+(is|are|was|were|will be|has been|have been)\\b",
+    "replacement": "\\1 also",
+    "suggestion": "Place 'also' before the verb 'be': 'The grass is green. It is also delicious to cows.' 'Extended financing is also offered.'"
+  },
+  {
+    "item": "in especially",
+    "pattern": "\\bin especially\\b",
+    "replacement": "particularly in",
+    "suggestion": "Especially' sounds unnatural between the 'in' and the noun. Not 'In especially master's studies, the student should be prepared' but 'Particularly in master's studies, the student should be prepared'."
+  },
+  {
+    "item": "incorrectly phrased modals, do",
+    "pattern": "\\b(How|What|Why|When|Where|Who|Which)\\s+(do|does|did)\\b.*?(?=\\n|\\r|$)",
+    "replacement": "[\\. ]*$ → ?",
+    "suggestion": "This has the word order of a question, but there is no question mark at the end. Consider rewriting it or putting a question mark at the end. Not 'How could we improve' but 'How could we improve?' or 'How  we could improve'."
+  },
+  {
+    "item": "incorrectly phrased statements, modals",
+    "pattern": "\\b(How|What|Why|When|Where|Who|Which)\\s+(can|will|should|could|may|might|would|shall|must)\\b.*?(?=\\n|\\r|$)",
+    "replacement": "[\\. ]*$ → ?",
+    "suggestion": "This has the word order of a question, but there is no question mark at the end. Consider rewriting it or putting a question mark at the end. Not 'How does the cookies crumble' but 'How does the cookie crumble?' or 'How the cookie crumbles'."
+  },
+  {
+    "item": "already early, redundant",
+    "pattern": "\\balready\\s+early\\b",
+    "replacement": NaN,
+    "suggestion": "“Already” is often unnecessary or awkward in English when used before time phrases. Try rewriting as “as early as”, “even during”, or omit “already” altogether."
+  }
+]
