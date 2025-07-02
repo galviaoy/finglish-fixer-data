@@ -661,7 +661,7 @@
   },
 {
   "item": "also in wrong place, after a non-be verb",
-  "pattern": "\\b(\\w+)\\s+also\\s+(?:the|a|an|my|your|our|their|this|that|\\w+)(?:\\s+\\w+){0,4}",
+"pattern": "\\b(?!is\\b|are\\b|was\\b|were\\b|be\\b|been\\b|being\\b)(\\w+)\\s+also\\s+(?:the|a|an|my|your|our|their|this|that|\\w+)"
   "replacement": "",
   "suggestion": "The word \\\"also\\\" should usually come before the main verb (unless the verb is a form of \\\"be\\\"). Consider rewriting this sentence to say \\\"also [verb]...\\\" instead of \\\"[verb] also...\\\".",
   "customHandler": "alsoVerbHandler"
