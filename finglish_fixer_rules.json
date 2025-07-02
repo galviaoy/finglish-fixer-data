@@ -660,8 +660,8 @@
     "suggestion": "This sentence may be too long for clarity. Consider breaking it into two."
   },
   {
-  "item": "also in wrong place",
-  "pattern": "\\b\\w+\\s+also\\s+(?:the|a|an|my|your|our|their|this|that|\\w+)",
+  "item": "also in wrong place, after a non-be verb",
+  "pattern": "\\b(\\w+)\\s+also\\s+(?:the|a|an|my|your|our|their|this|that|\\w+)(?:\\s+\\w+){0,4}"
   "replacement": "",
   "suggestion": "The word \"also\" should usually come before the main verb (unless the verb is a form of \"be\"). Consider rewriting this sentence to say \"also [verb]...\" instead of \"[verb] also...\".",
   "customHandler": "alsoVerbHandler"
