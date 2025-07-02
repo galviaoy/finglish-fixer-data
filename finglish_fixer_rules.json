@@ -617,12 +617,13 @@
     "replacement": "attend the $1",
     "suggestion": "Don't say \"participate\" with \"event\", \"survey\", \"open day\", or \"conference\". In English, we 'attend', 'go to' and 'be at' events, rather than 'participating in' them. For surveys, don't say 'participate': say 'answer', 'respond to' or 'take'."
   },
-  {
-    "item": "also after be",
-    "pattern": "\\balso\\s+(is|are|was|were|will be|has been|have been)\\b",
-    "replacement": "\\1 also",
-    "suggestion": "Place 'also' before the verb 'be': 'The grass is green. It is also delicious to cows.' 'Extended financing is also offered.'"
-  },
+{
+  "item": "also after be",
+  "pattern": "\\balso\\s+(is|are|was|were|will\\s+be|has\\s+been|have\\s+been)\\b",
+  "replacement": "\\1 also",
+  "suggestion": "Place 'also' before the verb 'be': 'Extended financing is also offered.'"
+},
+
   {
     "item": "in especially",
     "pattern": "\\bin especially\\b",
