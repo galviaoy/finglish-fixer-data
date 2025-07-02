@@ -39,7 +39,7 @@
     "item": "on the other hand",
     "pattern": "\\bOn the other hand\\b",
     "replacement": "",
-    "suggestion": "The program should search for paragraphs with \"on the other hand\" which are preceded by paragraphs which do NOT contain \"on the one hand\"."
+    "suggestion": "Only say \"on the other hand\" if you have said \"on the one hand\" in the same or preceding paragraph."
   },
   {
     "item": "soonest possible",
