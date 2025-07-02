@@ -96,12 +96,6 @@
     "suggestion": "In English, 'in connection with' is usually used in news about crime. You probably mean 'at the same time or place as', so say that: 'at the event', 'during the event'. Alternatively, you can say 'in conjunction with'."
   },
   {
-    "item": "also before verbs other than be",
-    "pattern": "\\b(?!is\\b|are\\b|was\\b|were\\b|be\\b|been\\b|being\\b)\\w+\\s+also\\s+(the|a|an|my|your|our|their|this|that|[\\w]+)",
-    "replacement": "also \\1 \\2",
-    "suggestion": "When the verb is not 'be', but any other verb, place 'also' after the verb: 'The upgrade also covers the return flight.' "
-  },
-  {
     "item": "definite article, common noun, proper noun order",
     "pattern": "\\b(Learning Centre|Library|School|Faculty)\\s+([A-Z][a-z]+(?:\\s+[A-Z][a-z]+)*)\\b",
     "replacement": "the \\2 \\1",
