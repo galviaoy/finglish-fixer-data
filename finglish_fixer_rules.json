@@ -164,7 +164,7 @@
   
   {
   "item": "provide without with",
-  "pattern": "\\bprovid(?:e|es|ed|ing)\\b\\s+(them|him|her|us|you|me|students|applicants|participants|users|workers|employees)\\s+(?!with\\b)(\\w+)",
+  "pattern": "\\bprovid(?:e|es|ed|ing)\\b\\s+(them|him|her|us|you|me|students|applicants|participants|users|workers|employees|clients|residents|visitors|citizens|children|staff|recipients)\\s+(?!with\\b)(\\w+)",
   "replacement": "\\1 \\2 with \\3",
   "suggestion": "Say either 'provide (somebody) with (something)' or 'give (somebody) (something)'. Don't say 'provide (somebody) (something)'."
   },
