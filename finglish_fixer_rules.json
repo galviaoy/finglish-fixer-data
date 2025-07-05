@@ -161,12 +161,14 @@
     "replacement": "the following",
     "suggestion": "Following' is a determiner, not an adjective. That means you cannot use it with possessive pronouns like 'my' and 'our'. Instead of 'our following locations', say 'the following locations of ours'."
   },
+  
   {
-    "item": "provide without with",
-    "pattern": ""\\bprovid(?:e|es|ed|ing)\\b\\s+(them|him|her|us|you|me|students|applicants|participants|users|workers|employees)\\s+(?!with\\b)(\\w+)",
-    "replacement": ""\\1 \\2 with \\3"",
-    "suggestion": "Say either 'provide (somebody) with (something)' or 'give (somebody) (something)'. Don't say 'provide (somebody) (something)'."
+  "item": "provide without with",
+  "pattern": "\\bprovid(?:e|es|ed|ing)\\b\\s+(them|him|her|us|you|me|students|applicants|participants|users|workers|employees)\\s+(?!with\\b)(\\w+)",
+  "replacement": "\\1 \\2 with \\3",
+  "suggestion": "Say either 'provide (somebody) with (something)' or 'give (somebody) (something)'. Don't say 'provide (somebody) (something)'."
   },
+
   {
     "item": "run-on gerunds without commas",
     "pattern": "\\bsolution\\s+(?!for|which|that|,)\\w+ing\\b",
