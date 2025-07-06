@@ -661,12 +661,5 @@
   "replacement": "",
   "suggestion": "Move “also” before the verb. E.g.: “also covers the flight.”",
   "customHandler": "alsoVerbHandler"
-  },
-  {
-  "item": "comma + and joining sentences without subject",
-  "pattern": ",\\s+and\\s+[a-z]+",
-  "replacement": "",
-  "suggestion": "This sentence may contain two full sentences joined with a comma and 'and'. Consider splitting them.",
-  "customHandler": "checkAndSplitSentenceJoin"
   }
 ]
