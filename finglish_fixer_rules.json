@@ -632,13 +632,13 @@
     "suggestion": "Especially' sounds unnatural between the 'in' and the noun. Not 'In especially master's studies, the student should be prepared' but 'Particularly in master's studies, the student should be prepared'."
   },
   {
-    "item": "incorrectly phrased modals, do",
+    "item": "fake question, do",
     "pattern": "\\b(How|What|Why|When|Where|Who|Which)\\s+(do|does|did)\\b.*?(?=\\n|\\r|$)",
     "replacement": "[\\. ]*$ → ?",
     "suggestion": "This has the word order of a question, but there is no question mark at the end. Consider rewriting it or putting a question mark at the end. Not 'How could we improve' but 'How could we improve?' or 'How  we could improve'."
   },
   {
-    "item": "incorrectly phrased statements, modals",
+    "item": "fake question, modals",
     "pattern": "\\b(How|What|Why|When|Where|Who|Which)\\s+(can|will|should|could|may|might|would|shall|must)\\b.*?(?=\\n|\\r|$)",
     "replacement": "[\\. ]*$ → ?",
     "suggestion": "This has the word order of a question, but there is no question mark at the end. Consider rewriting it or putting a question mark at the end. Not 'How does the cookies crumble' but 'How does the cookie crumble?' or 'How the cookie crumbles'."
