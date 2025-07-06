@@ -661,7 +661,7 @@
     "replacement": "",
     "suggestion": "This sentence may be too long for clarity. Consider breaking it into two."
   },
-{
+  {
   "item": "also in wrong place, after a non‑be verb",
   "pattern": "\\b(\\w+)\\s+also\\s+(?:the|a|an|\\w+)(?:\\s+\\w+){0,3}\\b",
   "replacement": "",
