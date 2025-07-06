@@ -138,10 +138,10 @@
     "suggestion": "This comma may be incorrect. The rule in English is that the clause with 'if' ends with a comma. The other clause does not. Example: 'If you tried it, you'd love it'. But: 'You'd love it if you tried it'."
   },
   {
-    "item": "incorrectly phrased modals, be",
-    "pattern": "\\b(How|What|Why|When|Where|Who|Which)\\s+(is|are|was|were)\\b.*?(?=\\n|\\r|$)",
-    "replacement": "[\\. ]*$ → ?",
-    "suggestion": "This has the word order of a question, but there is no question mark at the end. Consider rewriting it or putting a question mark at the end. Not 'How is the sausage made' but 'How is the sausage made?' or 'How the sausage is made'."
+  "item": "incorrectly phrased modals, be",
+  "pattern": "^(How|What|Why|When|Where|Who|Which)\\s+(is|are|was|were)\\b[^?]*$",
+  "replacement": "\\0?",
+  "suggestion": "This has the word order of a question, but there is no question mark at the end. Consider rewriting it or putting a question mark at the end. Not 'How is the sausage made' but 'How is the sausage made?' or 'How the sausage is made'."
   },
   {
     "item": "or instead of and",
