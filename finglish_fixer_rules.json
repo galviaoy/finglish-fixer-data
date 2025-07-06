@@ -1,9 +1,11 @@
 [
   {
-  "item": "comma and independent clause",
-  "pattern": "NO REGEX",
-  "replacement": "",
-  "suggestion": "You may have joined two full sentences with a comma and 'and'. Consider splitting them."
+    "item": "comma and independent clause",
+    "pattern": "",
+    "replacement": "",
+    "suggestion": "Make your text easier to read. Split long sentences into two or more. A comma and 'and', like here, is probably a sign you need to split the sentence up.",
+    "category": "Readability",
+    "tier": "premium"
   },
   {
     "item": "attract feedback",
