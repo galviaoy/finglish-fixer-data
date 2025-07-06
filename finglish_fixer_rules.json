@@ -428,10 +428,10 @@
     "suggestion": "Works' in English, as a noun, means a large factory (or miracles performed by Jesus and the saints). When you say 'Works' our 'Our works' as a headline, not everyone will understand you. Consider instead: 'What we do', 'Services', 'Our strengths', 'Past projects' or something similar."
   },
   {
-    "item": "comma, and instead of two sentences",
-    "pattern": ",\\s+and\\s+\\b[a-z]",
-    "replacement": "",
-    "suggestion": "Make your text easier to read. Split long sentences into two or more. A comma and 'and', like here, is probably a sign you need to split the sentence up."
+  "item": "comma + and joining sentences without subject",
+  "pattern": ",\\s+and\\s+(?!the|a|an|[a-z]+ing\\b)[a-z]+\\b",
+  "replacement": "",
+  "suggestion": "Make your text easier to read. Split long sentences into two or more. A comma and 'and', like here, is probably a sign you need to split the sentence up."
   },
   {
     "item": "implement",
