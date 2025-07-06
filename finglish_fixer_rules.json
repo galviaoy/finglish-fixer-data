@@ -1,5 +1,11 @@
 [
   {
+  "item": "comma and independent clause",
+  "pattern": "NO REGEX",
+  "replacement": "",
+  "suggestion": "You may have joined two full sentences with a comma and 'and'. Consider splitting them."
+  },
+  {
     "item": "attract feedback",
     "pattern": "\\battract(?:ed|s|ing)?((?:\\s+\\w+){0,3})\\s+feedback\\b",
     "replacement": "receive\\1 feedback",
