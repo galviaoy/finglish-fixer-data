@@ -1,40 +1,25 @@
-# Finglish Fixer Pattern List
+# Finglish Fixer Rules
 
-This file, [`finglish_patterns_101.js`](./finglish_patterns_101.js), contains 101 commonly found Finnish-English (Finglish) expressions that are unnatural or unidiomatic in English. Each entry includes:
+This repository contains the latest rule set used by the Finglish Fixer Google Docs add-on. The main file, [`finglish_fixer_rules.json`](./finglish_fixer_rules.json), includes:
 
-- A **regex** pattern to detect the phrase in a Google Docs document
-- An **explanation** of why it’s problematic
-- A **native-sounding suggestion**
-- A **category** (e.g., "Fake Idiom", "Grammar")
+- A **regex pattern** for each Finglish phrase or structure
+- A **clear explanation** of why it may be problematic
+- A **suggestion** for more natural or idiomatic English
+- Metadata such as **category**, **tier** (free vs premium), and **POS-aware matching flags**
 
-## ⚙️ How to Use in Google Apps Script
+## ⚙️ How to Use
 
-1. **Copy the full contents** of `finglish_patterns_101.js`.
-2. **Paste into your script project** in the Google Apps Script editor.
-   - You can put it at the top of your `Code.gs`, or in its own `.gs` file.
-3. In your detection function (e.g. `getSuggestions()`), loop through the `PHRASE_PATTERNS` array and apply each regex to the document body text.
+You can fetch the rule file directly in your script or app:
 
-```javascript
-PHRASE_PATTERNS.forEach(pattern => {
-  const regex = pattern.regex;
-  const match = regex.exec(text);
-  if (match) {
-    // Display suggestion, explanation, etc.
-  }
-});
-
-📋 Source
-
-This list is based on real examples of Finnish-English found in professional writing in Finland. It was compiled and curated by Ian Mac Eochagáin, a translator and language consultant based in Lohja.
-
-📐 License
-
-MIT — free to use and adapt. If you improve or expand the list, please consider contributing back!
+https://raw.githubusercontent.com/galviaoy/finglish-fixer-data/main/finglish_fixer_rules.json
 
 
----
+This format is optimized for use in Finglish Fixer's backend, where it supports fast regex-based and context-aware matching of common Finnish-English patterns.
 
-Let me know if you want to:
-- Include instructions for updating the list from Excel
-- Add screenshots of the sidebar
-- Mention your monetization/freemium model in this repo too
+## 📋 Source
+
+The rules are based on real-world examples of English usage in Finland. They have been compiled and curated by Ian Mac Eochagáin, a translator and language consultant based in Lohja.
+
+## 📐 Licence
+
+MIT — free to use and adapt. Contributions welcome!
