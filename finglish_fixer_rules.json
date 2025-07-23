@@ -83,7 +83,7 @@
   {
     "item": "we at",
     "pattern": "\\bwe at\\b",
-    "replacement": "Here at (company name), we",
+    "replacement": "",
     "suggestion": "Instead of 'we at (company)', write 'at (company), we…' Or rewrite the sentence entirely to begin with 'our team', 'our company', etc."
   },
   {
