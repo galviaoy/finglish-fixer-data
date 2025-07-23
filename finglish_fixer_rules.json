@@ -123,10 +123,49 @@
     "suggestion": "The phrase in English is 'by as much as', not 'even up to'."
   },
   {
-    "item": "experience/expertise from -> over, spanning",
-    "pattern": "\\b(?<=(?:experience|expertise)\\s+(?:\\w+\\s+)?)(from)\\b(?=\\s+(?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten|several|many|a few|some)\\s?(?:years?|decades?))",
-    "replacement": "over",
-    "suggestion": "In English, we don't have expertise 'from' a period of time but 'spanning' or 'over': 'My experience spans two decades', 'She has experience with polymers over the past decade'."
+    "number": 86,
+    "item": "misused quoting verb",
+    "finglish_example": "“We have achieved a lot,” enthused Calvin",
+    "corrected": "“We have achieved a lot,” said Calvin",
+    "pattern": "(?:[\"'”][,]?\\s)(?!(said|told|commented|noted|began|concluded|asked|answered)\\b)([a-z]{3,20}ed)\\b",
+    "replacement": "",
+    "category": "Misuse of real English words",
+    "sidebar": "When you quote someone in English, these verbs are OK. Any other verbs sound strange: \"say\", \"comment\", \"tell\", \"note\", \"begin\", \"conclude\", \"ask\" or \"answer\".",
+    "tier": "premium",
+    "custom_handler": "",
+    "category_style": "",
+    "notes": "Verbs like “shared”, “clarified”, “enthused” are odd in this position.",
+    "specificity": "high"
+  },
+  {
+    "number": 21,
+    "item": "experience from X years",
+    "finglish_example": "experience from five years",
+    "corrected": "with five years of experience",
+    "pattern": "(?:experience|expertise)\\s+(?:\\w+\\s+)?\\bfrom\\b(?=\\s+(?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten|several|many|a few|some)\\s?(?:years?|decades?))",
+    "replacement": "",
+    "category": "Incorrect grammar",
+    "sidebar": "In English, we don't have expertise 'from' a period of time but 'spanning' or 'over': 'My experience spans two decades', 'She has experience with polymers over the past decade'.",
+    "tier": "premium",
+    "custom_handler": "",
+    "category_style": "",
+    "notes": "False friend from Finnish",
+    "specificity": "medium"
+  },
+  {
+    "number": 87,
+    "item": "unnecessary \"for example\"",
+    "finglish_example": "We support your career development. For example, we offer learning programmes for juniors, have lots of internal trainings, and all our employees become certified business technology professionals.",
+    "corrected": "We support your career development. We offer learning programmes for juniors, have lots of internal trainings, and all our employees become certified business technology professionals.",
+    "pattern": "(?:^|[.]\\s)(?:For example,\\s)",
+    "replacement": "",
+    "category": "Readability",
+    "sidebar": "Only say “for example” if you’re giving just one or two examples. If you’re listing everything, skip it.",
+    "tier": "free",
+    "custom_handler": "",
+    "category_style": "",
+    "notes": "Finnish “esimerkiksi” is overused in English.",
+    "specificity": "medium"
   },
   {
     "item": "apply from -> to",
@@ -279,12 +318,6 @@
     "pattern": "\\bthe cooperation\\b",
     "replacement": "",
     "suggestion": "Do you really mean cooperation, or do you mean a service your company provided to a client? If so, say that."
-  },
-  {
-    "item": "describes/continues/shares/clarifies, etc. -> says",
-    "pattern": "(?<=[\"'”][,]?\\s)(?!(says|tells|comments|notes|begins|concludes|asks|answers)\\b)([a-z]{3,20})\\b",
-    "replacement": "says|comments|notes|begins|concludes|asks|answers",
-    "suggestion": "When you quote someone in English, these verbs are OK. Any other verbs sound strange: \"say\", \"comment\", \"tell\", \"note\", \"begin\", \"conclude\", \"ask\" or \"answer\"."
   },
   {
     "item": "development work",
@@ -513,12 +546,6 @@
     "pattern": "(?<=[\"'”][,]?\\s)(?!(said|told|commented|noted|began|concluded|asked|answered)\\b)([a-z]{3,20}ed)\\b",
     "replacement": "said|commented|noted|began|concluded|asked|answered",
     "suggestion": "When you quote someone in English, these verbs are OK. Any other verbs sound strange: \"say\", \"comment\", \"tell\", \"note\", \"begin\", \"conclude\", \"ask\" or \"answer\"."
-  },
-  {
-    "item": "for example",
-    "pattern": "(?<=^|\\.\\s)\\bFor example,\\s",
-    "replacement": "",
-    "suggestion": "Only say 'for example' if it's really an example. Don't use it before a full list of all the examples."
   },
   {
     "item": "if needed",
