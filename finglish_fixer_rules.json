@@ -242,6 +242,7 @@
   {
     "number": 17,
     "item": "also before verbs other than be",
+    "disabled": true,
     "finglish_example": "Does the payment cover also the return flight?",
     "corrected": "Does the payment also cover the return flight?",
     "pattern": "\\b(?!is\\b|are\\b|was\\b|were\\b|be\\b|been\\b|being\\b)\\w+\\s+also\\s+(the|a|an|my|your|our|their|this|that|[\\w]+)",
