@@ -496,6 +496,7 @@
   },
   {
     "number": 35,
+    "disabled": true,
     "item": "\"they\" to mean company",
     "finglish_example": "Mesensei designs and creates mobile solutions for organisations and companies. The company turned to Kodan when they wanted to renew their software development processes",
     "corrected": "Mesensei designs and creates mobile solutions for organisations and companies. The company turned to Kodan when it wanted to renew their software development processes ",
