@@ -360,19 +360,19 @@
     "specificity": "medium"
   },
   {
-    "number": 26,
-    "item": "or instead of and",
-    "finglish_example": "The programme is also taking place in several other countries such as Bolivia, Colombia, Tanzania, Uganda or Zambia!",
-    "corrected": "The programme is also taking place in several other countries such as Bolivia, Colombia, Tanzania, Uganda and Zambia!",
-    "pattern": "(\\b(?:\\w+, ){1,}\\w+)\\s+or\\s+(\\w+\\b)",
-    "replacement": "$1 and $2",
-    "category": "Incorrect Grammar",
-    "sidebar": "Consider changing 'or' to 'and'. When you make a list in a regular, positive statement (not in a question), join the last two items with 'and', not 'or'. 'Or' is OK if you say something like 'you can choose eggs, ham or cheese'. However, we say 'eggs, ham and cheese are available'.",
-    "tier": "free",
-    "custom_handler": "",
-    "category_style": "",
-    "notes": "",
-    "specificity": "low"
+  "number": 26,
+  "item": "or instead of and",
+  "finglish_example": "The programme is also taking place in several other countries such as Bolivia, Colombia, Tanzania, Uganda or Zambia!",
+  "corrected": "The programme is also taking place in several other countries such as Bolivia, Colombia, Tanzania, Uganda and Zambia!",
+  "pattern": "(?i)\\b(?:such as|including|like)\\s+([A-Za-z][\\w-]*(?:,\\s+[A-Za-z][\\w-]*){3,})\\s+or\\s+([A-Za-z][\\w-]*)\\b",
+  "replacement": "$1 and $2",
+  "category": "Incorrect Grammar",
+  "sidebar": "Consider changing 'or' to 'and'. When you make a list in a regular, positive statement (not in a question), join the last two items with 'and', not 'or'. 'Or' is OK if you mean alternatives (e.g., 'tea or coffee'). This rule only triggers for long enumerations after 'such as', 'including', or 'like'.",
+  "tier": "free",
+  "custom_handler": "",
+  "category_style": "",
+  "notes": "",
+  "specificity": "low"
   },
   {
     "number": 27,
