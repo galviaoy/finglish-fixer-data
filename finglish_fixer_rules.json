@@ -1640,7 +1640,7 @@
   "item": "or instead of and (no cue word, long list)",
   "finglish_example": "We operate in Cambodia, Taiwan, Bolivia, China or Korea.",
   "corrected": "We operate in Cambodia, Taiwan, Bolivia, China and Korea.",
-  "pattern": "(?i)\\b([A-Za-z][\\w-]*(?:,\\s+[A-Za-z][\\w-]*){3,})\\s+or\\s+([A-Za-z][\\w-]*)\\b",
+  "pattern": "(?i)\\b([A-Za-z][\\w-]*(?:\\s+[A-Za-z][\\w-]*)*(?:,\\s+[A-Za-z][\\w-]*(?:\\s+[A-Za-z][\\w-]*)*){3,})(?:,\\s*)?\\s+or\\s+([A-Za-z][\\w-]*(?:\\s+[A-Za-z][\\w-]*)*)\\b",
   "replacement": "$1 and $2",
   "category": "Incorrect Grammar",
   "sidebar": "In long enumerations (4+ items) in positive statements, English normally joins the last two items with “and,” not “or.” Use “or” when you truly mean alternatives.",
@@ -1649,5 +1649,5 @@
   "category_style": "",
   "notes": "Pairs with Rule 26 (cue-word version). Place after 26 so overlap resolution prefers 26 when both could match.",
   "specificity": "low"
-  }
+}
 ]
