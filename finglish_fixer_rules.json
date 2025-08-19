@@ -556,19 +556,19 @@
     "specificity": "low"
   },
   {
-    "number": 39,
-    "item": "excessively long abstract nouns over 15 characters and ending in -isation or -ization, such as operationalization, familiarization and more",
-    "finglish_example": "The practical operationalization of the flood forecast and warning system includes awareness-raising and familiarization",
-    "corrected": "When the flood forecast and warning system is launched in practice, we made people aware of and familiar with it.",
-    "pattern": "\\b\\w{5,}(isation|ization)\\b",
-    "replacement": "",
-    "category": "Lengthiness",
-    "sidebar": "This abstract noun is too long. Make it more readable by saying what you actually did in plain language. So, not 'We increased familiarization with our strategy' but 'We presented our strategy' or 'We taught people about our strategy' or 'We made our strategy better-known to people'.",
-    "tier": "premium",
-    "custom_handler": "",
-    "category_style": "",
-    "notes": "",
-    "specificity": "low"
+  "number": 39,
+  "item": "excessively long abstract nouns over 15 characters and ending in -isation or -ization, such as operationalization, familiarization and more",
+  "finglish_example": "The practical operationalization of the flood forecast and warning system includes awareness-raising and familiarization",
+  "corrected": "When the flood forecast and warning system is launched in practice, we made people aware of and familiar with it.",
+  "pattern": "\\b(?=[A-Za-z]{16,}\\b)[A-Za-z]*?(?:isation|ization)\\b",
+  "replacement": "",
+  "category": "Lengthiness",
+  "sidebar": "This abstract noun is too long. Make it more readable by saying what you actually did in plain language. So, not 'We increased familiarization with our strategy' but 'We presented our strategy' or 'We taught people about our strategy' or 'We made our strategy better-known to people'.",
+  "tier": "premium",
+  "custom_handler": "",
+  "category_style": "",
+  "notes": "",
+  "specificity": "low"
   },
   {
     "number": 40,
